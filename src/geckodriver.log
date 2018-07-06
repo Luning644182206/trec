@@ -1,0 +1,896 @@
+1530167343985	geckodriver	INFO	geckodriver 0.21.0
+1530167344006	geckodriver	INFO	Listening on 127.0.0.1:55913
+1530167344994	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.bCD8AW9OxEug"
+*** You are running in headless mode.
+*** You are running in headless mode.
+2018-06-28 14:29:18.939 plugin-container[14731:24104882] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x873b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-28 14:29:19.968 plugin-container[14733:24104939] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8e43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530167360411	Marionette	INFO	Listening on port 55929
+1530167386278	geckodriver	INFO	geckodriver 0.21.0
+1530167386304	geckodriver	INFO	Listening on 127.0.0.1:56095
+1530167387288	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.CSLEL7k8Z3TA"
+*** You are running in headless mode.
+2018-06-28 14:29:50.086 plugin-container[14768:24105468] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7d03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-28 14:29:50.663 plugin-container[14770:24105530] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7643, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530167391055	Marionette	INFO	Listening on port 56107
+1530167391095	Marionette	WARN	TLS certificate errors will be ignored for this session
+1530167420468	geckodriver	INFO	geckodriver 0.21.0
+1530167420486	geckodriver	INFO	Listening on 127.0.0.1:56274
+1530167421485	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.gaC5uY0EAE0i"
+*** You are running in headless mode.
+2018-06-28 14:30:23.881 plugin-container[14813:24106503] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8943, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-28 14:30:24.773 plugin-container[14814:24106553] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7603, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530167425144	Marionette	INFO	Listening on port 56290
+1530167425171	Marionette	WARN	TLS certificate errors will be ignored for this session
+1530167425434	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1530167502203	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1530167502506	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1530167514352	geckodriver	INFO	geckodriver 0.21.0
+1530167514363	geckodriver	INFO	Listening on 127.0.0.1:56855
+1530167515371	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.m56O1zrPpRVu"
+*** You are running in headless mode.
+2018-06-28 14:31:57.734 plugin-container[14884:24108672] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x863f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-28 14:31:58.651 plugin-container[14885:24108747] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7943, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530167518658	Marionette	INFO	Listening on port 56867
+1530167518696	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-28 14:32:02.747 plugin-container[14884:24108677] NSNotificationCenter connection invalid
+1530167551321	geckodriver	INFO	geckodriver 0.21.0
+1530167551332	geckodriver	INFO	Listening on 127.0.0.1:57256
+1530167552337	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.JonEb5gzJHJc"
+*** You are running in headless mode.
+2018-06-28 14:32:34.810 plugin-container[14929:24109909] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x893f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530167556033	Marionette	INFO	Listening on port 57272
+2018-06-28 14:32:36.103 plugin-container[14930:24109999] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7007, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530167556144	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1530167582093	geckodriver	INFO	geckodriver 0.21.0
+1530167582102	geckodriver	INFO	Listening on 127.0.0.1:57426
+1530167583118	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.Spj1faqO8PiW"
+*** You are running in headless mode.
+2018-06-28 14:33:05.845 plugin-container[14971:24110654] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8843, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-28 14:33:06.724 plugin-container[14972:24110709] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8703, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530167587031	Marionette	INFO	Listening on port 57442
+1530167587062	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530167846791	geckodriver	INFO	geckodriver 0.21.0
+1530167846801	geckodriver	INFO	Listening on 127.0.0.1:58642
+1530167847816	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.EYr7x1Mh5wxt"
+*** You are running in headless mode.
+2018-06-28 14:37:30.411 plugin-container[15131:24114262] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x843f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-28 14:37:31.352 plugin-container[15132:24114313] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7843, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530167851592	Marionette	INFO	Listening on port 58658
+1530167851616	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530167875802	geckodriver	INFO	geckodriver 0.21.0
+1530167875812	geckodriver	INFO	Listening on 127.0.0.1:58849
+1530167876822	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.UWXzcP2MVxpZ"
+*** You are running in headless mode.
+2018-06-28 14:37:59.328 plugin-container[15173:24114893] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8a03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-28 14:38:00.174 plugin-container[15174:24114965] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8443, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530167880399	Marionette	INFO	Listening on port 58865
+1530167880417	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-28 14:38:05.210 plugin-container[15173:24114895] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/api.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530169550043	geckodriver	INFO	geckodriver 0.21.0
+1530169550053	geckodriver	INFO	Listening on 127.0.0.1:49825
+1530169551062	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.uP1tKkQOCJ3m"
+*** You are running in headless mode.
+2018-06-28 15:05:53.934 plugin-container[15412:24133021] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8407, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-28 15:05:54.807 plugin-container[15413:24133072] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7343, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530169554981	Marionette	INFO	Listening on port 49845
+1530169555074	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-28 15:05:59.048 plugin-container[15412:24133024] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/api.js
+1530169577992	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1530169578005	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530170520782	geckodriver	INFO	geckodriver 0.21.0
+1530170520811	geckodriver	INFO	Listening on 127.0.0.1:54362
+1530170521801	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.ufk7SQ1isuQT"
+*** You are running in headless mode.
+2018-06-28 15:22:05.630 plugin-container[15569:24144975] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7137, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-28 15:22:06.749 plugin-container[15570:24145049] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x813f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530170527187	Marionette	INFO	Listening on port 54380
+1530170527234	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-28 15:22:12.830 plugin-container[15569:24144979] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+1530258198425	geckodriver	INFO	geckodriver 0.21.0
+1530258198449	geckodriver	INFO	Listening on 127.0.0.1:53260
+1530258199470	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.joKoG5GJ1Rho"
+*** You are running in headless mode.
+2018-06-29 15:43:23.215 plugin-container[19410:24332230] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x873f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 15:43:24.191 plugin-container[19412:24332299] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7f07, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530258204657	Marionette	INFO	Listening on port 53276
+1530258204709	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 15:43:29.360 plugin-container[19410:24332244] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530258270007	geckodriver	INFO	geckodriver 0.21.0
+1530258270021	geckodriver	INFO	Listening on 127.0.0.1:53858
+1530258271046	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.sZ2TbPMz3m7R"
+*** You are running in headless mode.
+2018-06-29 15:44:34.055 plugin-container[19459:24333526] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x893f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530258275191	Marionette	INFO	Listening on port 53874
+1530258275259	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 15:44:35.440 plugin-container[19460:24333607] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x753f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 15:44:39.466 plugin-container[19459:24333528] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530258324488	geckodriver	INFO	geckodriver 0.21.0
+1530258324504	geckodriver	INFO	Listening on 127.0.0.1:54285
+1530258325531	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.S8LlLcALbCkB"
+*** You are running in headless mode.
+2018-06-29 15:45:28.232 plugin-container[19502:24334540] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x773f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 15:45:29.087 plugin-container[19503:24334604] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7d3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530258329382	Marionette	INFO	Listening on port 54302
+1530258329451	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 15:45:33.189 plugin-container[19502:24334541] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530258412743	geckodriver	INFO	geckodriver 0.21.0
+1530258412759	geckodriver	INFO	Listening on 127.0.0.1:54908
+1530258413786	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.JqQto0GnmPh6"
+*** You are running in headless mode.
+2018-06-29 15:46:57.250 plugin-container[19625:24337228] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9307, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 15:46:57.905 plugin-container[19627:24337304] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8103, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530258418519	Marionette	INFO	Listening on port 54924
+1530258418624	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 15:47:03.803 plugin-container[19625:24337249] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530258532144	geckodriver	INFO	geckodriver 0.21.0
+1530258532158	geckodriver	INFO	Listening on 127.0.0.1:55663
+1530258533179	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.VSSRZmNIF31P"
+*** You are running in headless mode.
+2018-06-29 15:48:55.986 plugin-container[19683:24339422] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8743, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530258536895	Marionette	INFO	Listening on port 55679
+1530258536978	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 15:48:57.910 plugin-container[19684:24339507] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x743f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 15:49:00.980 plugin-container[19683:24339424] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530259914199	geckodriver	INFO	geckodriver 0.21.0
+1530259914209	geckodriver	INFO	Listening on 127.0.0.1:61652
+1530259915229	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.HdlFjyxIEgcq"
+*** You are running in headless mode.
+2018-06-29 16:11:58.136 plugin-container[19909:24353565] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x693f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 16:11:59.055 plugin-container[19910:24353618] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7043, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530259919268	Marionette	INFO	Listening on port 61668
+1530259919343	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 16:12:04.031 plugin-container[19909:24353568] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+1530259957782	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530262709289	geckodriver	INFO	geckodriver 0.21.0
+1530262709309	geckodriver	INFO	Listening on 127.0.0.1:49369
+1530262710321	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.fO9T554M1CbX"
+*** You are running in headless mode.
+2018-06-29 16:58:33.832 plugin-container[1047:8550] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8443, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 16:58:34.446 plugin-container[1048:8608] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8a3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530262715228	Marionette	INFO	Listening on port 49385
+1530262715256	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 16:58:39.451 plugin-container[1047:8552] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530262783749	geckodriver	INFO	geckodriver 0.21.0
+1530262783758	geckodriver	INFO	Listening on 127.0.0.1:50037
+1530262784776	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.lvPRlXqDVv5x"
+*** You are running in headless mode.
+2018-06-29 16:59:47.739 plugin-container[1106:9786] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8243, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 16:59:48.507 plugin-container[1107:9833] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530262788750	Marionette	INFO	Listening on port 50057
+1530262788795	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 16:59:53.367 plugin-container[1106:9789] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+1530271751628	geckodriver	INFO	geckodriver 0.21.0
+1530271751639	geckodriver	INFO	Listening on 127.0.0.1:63437
+1530271752661	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.0Ky5CMrSWpdn"
+*** You are running in headless mode.
+2018-06-29 19:29:15.235 plugin-container[1268:35474] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x893f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530271755889	Marionette	INFO	Listening on port 63449
+1530271755933	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 19:29:16.831 plugin-container[1269:35543] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8a43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 19:29:19.327 plugin-container[1268:35476] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+1530271783541	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530271860467	geckodriver	INFO	geckodriver 0.21.0
+1530271860475	geckodriver	INFO	Listening on 127.0.0.1:64118
+1530271861505	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.K00Fvn1dg4kI"
+*** You are running in headless mode.
+2018-06-29 19:31:04.040 plugin-container[1308:36432] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x753f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530271864710	Marionette	INFO	Listening on port 64130
+1530271864783	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 19:31:05.702 plugin-container[1309:36498] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8d03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 19:31:07.771 plugin-container[1308:36435] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530271960453	geckodriver	INFO	geckodriver 0.21.0
+1530271960464	geckodriver	INFO	Listening on 127.0.0.1:64793
+1530271961489	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.VHNPfQOzXXHE"
+*** You are running in headless mode.
+2018-06-29 19:32:44.009 plugin-container[1348:37252] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8843, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530271964612	Marionette	INFO	Listening on port 64805
+1530271964660	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 19:32:45.437 plugin-container[1349:37321] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8c3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 19:32:48.147 plugin-container[1348:37255] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530272013778	geckodriver	INFO	geckodriver 0.21.0
+1530272013788	geckodriver	INFO	Listening on 127.0.0.1:65277
+1530272014813	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.buh8DPnoZKYR"
+*** You are running in headless mode.
+2018-06-29 19:33:37.310 plugin-container[1387:37877] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8c07, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530272017908	Marionette	INFO	Listening on port 65289
+1530272017988	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 19:33:38.675 plugin-container[1388:37948] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8343, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 19:33:41.233 plugin-container[1387:37878] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+1530272041555	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530272152840	geckodriver	INFO	geckodriver 0.21.0
+1530272152851	geckodriver	INFO	Listening on 127.0.0.1:49717
+1530272153874	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.wZhCZjtiWSse"
+*** You are running in headless mode.
+2018-06-29 19:35:56.404 plugin-container[1426:38892] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7b3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530272157040	Marionette	INFO	Listening on port 49729
+1530272157069	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 19:35:57.935 plugin-container[1427:38963] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x803f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 19:36:02.354 plugin-container[1426:38893] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+1530272180800	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+1530272180817	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1530272180818	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530272294743	geckodriver	INFO	geckodriver 0.21.0
+1530272294753	geckodriver	INFO	Listening on 127.0.0.1:50526
+1530272295775	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.JX3rQIvB9eqr"
+*** You are running in headless mode.
+2018-06-29 19:38:18.262 plugin-container[1465:39895] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8743, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530272298874	Marionette	INFO	Listening on port 50538
+1530272298946	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 19:38:19.606 plugin-container[1466:39965] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8d3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 19:38:22.506 plugin-container[1465:39897] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+1530272424320	geckodriver	INFO	geckodriver 0.21.0
+1530272424331	geckodriver	INFO	Listening on 127.0.0.1:51332
+1530272425356	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.qslgki6PP0sa"
+*** You are running in headless mode.
+2018-06-29 19:40:27.988 plugin-container[1504:40834] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8443, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530272428679	Marionette	INFO	Listening on port 51344
+1530272428731	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 19:40:29.569 plugin-container[1505:40899] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x763f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 19:40:32.149 plugin-container[1504:40836] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+1530272461135	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/general.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530272478649	geckodriver	INFO	geckodriver 0.21.0
+1530272478659	geckodriver	INFO	Listening on 127.0.0.1:51829
+1530272479689	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.MUwofH5ncVvZ"
+*** You are running in headless mode.
+2018-06-29 19:41:22.176 plugin-container[1543:41424] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x803f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530272482776	Marionette	INFO	Listening on port 51841
+1530272482848	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 19:41:23.485 plugin-container[1544:41494] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7943, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 19:41:27.375 plugin-container[1543:41426] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+1530272506364	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/api.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530272849309	geckodriver	INFO	geckodriver 0.21.0
+1530272849320	geckodriver	INFO	Listening on 127.0.0.1:53588
+1530272850339	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.KJfBo2G7PdXX"
+*** You are running in headless mode.
+2018-06-29 19:47:32.858 plugin-container[1582:43652] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7043, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530272853506	Marionette	INFO	Listening on port 53600
+1530272853622	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 19:47:34.321 plugin-container[1583:43718] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x733f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 19:47:37.303 plugin-container[1582:43653] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530273267154	geckodriver	INFO	geckodriver 0.21.0
+1530273267165	geckodriver	INFO	Listening on 127.0.0.1:55674
+1530273268186	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.uglqlmno80DV"
+*** You are running in headless mode.
+2018-06-29 19:54:30.809 plugin-container[1634:46223] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7543, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530273271482	Marionette	INFO	Listening on port 55686
+1530273271594	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 19:54:32.375 plugin-container[1635:46291] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x853f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 19:54:35.692 plugin-container[1634:46268] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+1530273348105	geckodriver	INFO	geckodriver 0.21.0
+1530273348116	geckodriver	INFO	Listening on 127.0.0.1:56243
+1530273349146	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.mfZzaC3leKep"
+*** You are running in headless mode.
+2018-06-29 19:55:51.711 plugin-container[1673:47015] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530273352347	Marionette	INFO	Listening on port 56255
+1530273352417	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 19:55:53.184 plugin-container[1674:47088] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x732b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 19:55:57.620 plugin-container[1673:47017] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+1530273382889	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530273565785	geckodriver	INFO	geckodriver 0.21.0
+1530273565795	geckodriver	INFO	Listening on 127.0.0.1:57372
+1530273566820	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.Rhgn1EHwVQkJ"
+*** You are running in headless mode.
+2018-06-29 19:59:29.412 plugin-container[1722:48551] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7a3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530273570095	Marionette	INFO	Listening on port 57384
+1530273570218	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 19:59:31.021 plugin-container[1723:48621] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8403, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 19:59:34.258 plugin-container[1722:48552] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+1530273608391	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/api.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530273630158	geckodriver	INFO	geckodriver 0.21.0
+1530273630168	geckodriver	INFO	Listening on 127.0.0.1:57868
+1530273631195	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.JN75WUtiQ40U"
+*** You are running in headless mode.
+2018-06-29 20:00:33.732 plugin-container[1761:49261] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x873f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530273634338	Marionette	INFO	Listening on port 57880
+1530273634358	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 20:00:35.254 plugin-container[1762:49327] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x883f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 20:00:37.546 plugin-container[1761:49262] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+1530273662136	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530273691557	geckodriver	INFO	geckodriver 0.21.0
+1530273691567	geckodriver	INFO	Listening on 127.0.0.1:58360
+1530273692594	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.qvBEsTCXdqa9"
+*** You are running in headless mode.
+2018-06-29 20:01:35.093 plugin-container[1800:49939] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7507, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530273695713	Marionette	INFO	Listening on port 58372
+1530273695759	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 20:01:36.494 plugin-container[1801:50009] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8f3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 20:01:38.781 plugin-container[1800:49942] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+1530273722905	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530273891414	geckodriver	INFO	geckodriver 0.21.0
+1530273891423	geckodriver	INFO	Listening on 127.0.0.1:59388
+1530273892449	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.BKTMtQnAZUHh"
+*** You are running in headless mode.
+2018-06-29 20:04:55.018 plugin-container[1839:51333] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8843, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530273895693	Marionette	INFO	Listening on port 59401
+1530273895732	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 20:04:56.490 plugin-container[1840:51403] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8843, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 20:04:59.439 plugin-container[1839:51335] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+1530273924187	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530274245505	geckodriver	INFO	geckodriver 0.21.0
+1530274245517	geckodriver	INFO	Listening on 127.0.0.1:61042
+1530274246545	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.mSuuVm2NAtUP"
+*** You are running in headless mode.
+2018-06-29 20:10:49.382 plugin-container[1886:53436] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8803, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530274250210	Marionette	INFO	Listening on port 61054
+1530274250241	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 20:10:51.551 plugin-container[1887:53504] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7543, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 20:10:55.197 plugin-container[1886:53438] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530275681064	geckodriver	INFO	geckodriver 0.21.0
+1530275681074	geckodriver	INFO	Listening on 127.0.0.1:50610
+1530275682108	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.mq4viEvMRsVJ"
+*** You are running in headless mode.
+2018-06-29 20:34:44.725 plugin-container[1930:60287] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x753f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530275685415	Marionette	INFO	Listening on port 50622
+1530275685468	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 20:34:46.183 plugin-container[1937:60365] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530275701920	geckodriver	INFO	geckodriver 0.21.0
+1530275701930	geckodriver	INFO	Listening on 127.0.0.1:50748
+1530275702964	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.h25xm99BQBdT"
+*** You are running in headless mode.
+2018-06-29 20:35:05.560 plugin-container[1969:60775] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8643, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530275706279	Marionette	INFO	Listening on port 50760
+1530275706337	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 20:35:07.272 plugin-container[1970:60844] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x733f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 20:35:10.386 plugin-container[1969:60777] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+1530275923683	geckodriver	INFO	geckodriver 0.21.0
+1530275923700	geckodriver	INFO	Listening on 127.0.0.1:51897
+1530275924731	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.e6WFkV9e1848"
+*** You are running in headless mode.
+2018-06-29 20:38:47.362 plugin-container[2008:62117] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7743, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530275928100	Marionette	INFO	Listening on port 51909
+1530275928185	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 20:38:49.052 plugin-container[2009:62179] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x853f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 20:38:51.276 plugin-container[2008:62119] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+1530276009480	geckodriver	INFO	geckodriver 0.21.0
+1530276009491	geckodriver	INFO	Listening on 127.0.0.1:52482
+1530276010527	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.6xUB1lELeMh3"
+*** You are running in headless mode.
+2018-06-29 20:40:13.185 plugin-container[2051:63026] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x893f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530276013878	Marionette	INFO	Listening on port 52494
+1530276013922	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 20:40:14.781 plugin-container[2052:63103] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x753b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 20:40:17.337 plugin-container[2051:63028] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+1530276121617	geckodriver	INFO	geckodriver 0.21.0
+1530276121628	geckodriver	INFO	Listening on 127.0.0.1:53188
+1530276122660	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.ZiBtBZu4SAQE"
+*** You are running in headless mode.
+2018-06-29 20:42:05.402 plugin-container[2110:64351] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x843f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530276126191	Marionette	INFO	Listening on port 53200
+1530276126238	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 20:42:06.479 plugin-container[2111:64413] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7403, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 20:42:09.643 plugin-container[2110:64352] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/api.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+1530276161337	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/api.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530276193490	geckodriver	INFO	geckodriver 0.21.0
+1530276193502	geckodriver	INFO	Listening on 127.0.0.1:53785
+1530276194527	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.ZPCyJAOoznkP"
+*** You are running in headless mode.
+2018-06-29 20:43:17.204 plugin-container[2151:65066] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x763b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530276198571	Marionette	INFO	Listening on port 53797
+1530276198614	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 20:43:18.910 plugin-container[2153:65171] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x823f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 20:43:22.062 plugin-container[2151:65068] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: https://global.fncstatic.com/static/orion/scripts/core/ag.core.js?v=20180607133417, line 158: Error: [Modulr] error loading script: https://global.fncstatic.com/static/v/all/js/geo.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+1530276225354	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530278085915	geckodriver	INFO	geckodriver 0.21.0
+1530278085931	geckodriver	INFO	Listening on 127.0.0.1:62062
+1530278086962	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.49X2iojEx8Zb"
+*** You are running in headless mode.
+2018-06-29 21:14:49.784 plugin-container[2224:72171] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8403, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 21:14:50.784 plugin-container[2225:72222] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7643, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530278091333	Marionette	INFO	Listening on port 62074
+1530278091359	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 21:14:54.827 plugin-container[2224:72173] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530279707871	geckodriver	INFO	geckodriver 0.21.0
+1530279707880	geckodriver	INFO	Listening on 127.0.0.1:51973
+1530279708901	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.7TyvHec1fi1c"
+*** You are running in headless mode.
+2018-06-29 21:41:51.852 plugin-container[2279:77397] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7d3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530279713043	Marionette	INFO	Listening on port 51985
+2018-06-29 21:41:53.049 plugin-container[2280:77458] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x6f03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530279713089	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 21:41:56.336 plugin-container[2279:77400] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/api.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530282429072	geckodriver	INFO	geckodriver 0.21.0
+1530282429094	geckodriver	INFO	Listening on 127.0.0.1:63902
+1530282430142	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.lRaMG8a6gD4q"
+*** You are running in headless mode.
+2018-06-29 22:27:13.265 plugin-container[2862:92423] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7907, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-29 22:27:14.116 plugin-container[2863:92471] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8d3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530282434581	Marionette	INFO	Listening on port 63914
+1530282434641	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-29 22:27:18.752 plugin-container[2862:92425] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/api.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/api.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530498765778	geckodriver	INFO	geckodriver 0.21.0
+1530498765803	geckodriver	INFO	Listening on 127.0.0.1:62180
+1530498766831	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.OcCixn7dbQPu"
+*** You are running in headless mode.
+2018-07-02 10:32:50.907 plugin-container[26626:734700] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x893f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530498772203	Marionette	INFO	Listening on port 62196
+1530498772346	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-02 10:32:54.264 plugin-container[26627:734779] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x873f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-02 10:32:57.899 plugin-container[26626:734702] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+1530498816692	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530499259041	geckodriver	INFO	geckodriver 0.21.0
+1530499259051	geckodriver	INFO	Listening on 127.0.0.1:65279
+1530499260083	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.jF7ZJaUP1x3B"
+*** You are running in headless mode.
+2018-07-02 10:41:02.936 plugin-container[26736:738350] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8703, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-02 10:41:03.786 plugin-container[26737:738398] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8703, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530499263973	Marionette	INFO	Listening on port 65295
+1530499264110	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-02 10:41:07.069 plugin-container[26736:738352] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530499432613	geckodriver	INFO	geckodriver 0.21.0
+1530499432625	geckodriver	INFO	Listening on 127.0.0.1:49922
+1530499433666	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.9kbT36v5sIMf"
+*** You are running in headless mode.
+2018-07-02 10:43:56.955 plugin-container[26793:739809] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8a3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-02 10:43:57.818 plugin-container[26794:739860] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8803, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530499438162	Marionette	INFO	Listening on port 49938
+1530499438213	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-02 10:44:02.376 plugin-container[26793:739811] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530499832588	geckodriver	INFO	geckodriver 0.21.0
+1530499832603	geckodriver	INFO	Listening on 127.0.0.1:52284
+1530499833636	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.WJvPad6ouSii"
+*** You are running in headless mode.
+2018-07-02 10:50:36.730 plugin-container[26877:742728] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x813f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-02 10:50:37.503 plugin-container[26878:742777] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x6e43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530499837890	Marionette	INFO	Listening on port 52300
+1530499837963	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-02 10:50:41.101 plugin-container[26877:742730] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530500086003	geckodriver	INFO	geckodriver 0.21.0
+1530500086024	geckodriver	INFO	Listening on 127.0.0.1:53717
+1530500087060	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.Rhf5Kl1lV9G3"
+*** You are running in headless mode.
+2018-07-02 10:54:50.647 plugin-container[27041:746530] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7f43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-02 10:54:52.409 plugin-container[27048:746646] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8f43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530500092630	Marionette	INFO	Listening on port 53733
+1530500092712	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-02 10:54:55.998 plugin-container[27041:746531] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530500251874	geckodriver	INFO	geckodriver 0.21.0
+1530500251896	geckodriver	INFO	Listening on 127.0.0.1:54759
+1530500252914	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.li0sR1OVQ0tw"
+*** You are running in headless mode.
+2018-07-02 10:57:36.327 plugin-container[27226:749823] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7943, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-02 10:57:37.250 plugin-container[27229:749890] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b07, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530500258295	Marionette	INFO	Listening on port 54781
+1530500258395	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-02 10:57:42.136 plugin-container[27226:749829] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/modules/auth.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+1530500287989	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530500432088	geckodriver	INFO	geckodriver 0.21.0
+1530500432100	geckodriver	INFO	Listening on 127.0.0.1:55870
+1530500433130	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.hx5rejJ0v1PM"
+*** You are running in headless mode.
+2018-07-02 11:00:36.106 plugin-container[27355:752347] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7607, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-02 11:00:36.769 plugin-container[27356:752394] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8e07, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530500437051	Marionette	INFO	Listening on port 55886
+1530500437122	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-02 11:00:40.067 plugin-container[27355:752349] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530501057142	geckodriver	INFO	geckodriver 0.21.0
+1530501057167	geckodriver	INFO	Listening on 127.0.0.1:59055
+1530501058194	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.T7KEZnqqG7Ia"
+*** You are running in headless mode.
+2018-07-02 11:11:02.181 plugin-container[27673:759736] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x803f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-02 11:11:02.953 plugin-container[27674:759783] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x863f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530501063583	Marionette	INFO	Listening on port 59071
+1530501063604	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-02 11:11:06.477 plugin-container[27673:759749] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+1530501101091	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530501351440	geckodriver	INFO	geckodriver 0.21.0
+1530501351460	geckodriver	INFO	Listening on 127.0.0.1:60786
+1530501352494	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.D0yqhvEPzy2Y"
+*** You are running in headless mode.
+2018-07-02 11:15:56.021 plugin-container[27852:763491] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8d07, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-02 11:15:57.130 plugin-container[27853:763547] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x6f43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530501357502	Marionette	INFO	Listening on port 60803
+1530501357615	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-02 11:16:02.522 plugin-container[27852:763493] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530501442570	geckodriver	INFO	geckodriver 0.21.0
+1530501442584	geckodriver	INFO	Listening on 127.0.0.1:61462
+1530501443609	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.p2kvsBacLiLc"
+*** You are running in headless mode.
+2018-07-02 11:17:26.589 plugin-container[27900:764407] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7603, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-02 11:17:27.478 plugin-container[27901:764456] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8043, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530501447742	Marionette	INFO	Listening on port 61479
+1530501447826	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-02 11:17:30.817 plugin-container[27900:764410] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+1530501472553	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530501533961	geckodriver	INFO	geckodriver 0.21.0
+1530501533975	geckodriver	INFO	Listening on 127.0.0.1:62159
+1530501535010	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.6couhWHt3hnr"
+*** You are running in headless mode.
+2018-07-02 11:18:57.757 plugin-container[27949:765239] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8703, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-02 11:18:58.674 plugin-container[27951:765295] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8643, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530501538704	Marionette	INFO	Listening on port 62175
+1530501538846	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-02 11:19:01.269 plugin-container[27949:765241] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+1530501565324	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530501660122	geckodriver	INFO	geckodriver 0.21.0
+1530501660132	geckodriver	INFO	Listening on 127.0.0.1:62968
+1530501661157	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.jX3HdjzcOlCj"
+*** You are running in headless mode.
+2018-07-02 11:21:03.946 plugin-container[28003:766229] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7743, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-02 11:21:04.865 plugin-container[28005:766281] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8c43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530501665218	Marionette	INFO	Listening on port 62984
+1530501665262	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-02 11:21:09.338 plugin-container[28003:766232] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530501771575	geckodriver	INFO	geckodriver 0.21.0
+1530501771586	geckodriver	INFO	Listening on 127.0.0.1:63744
+1530501772622	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.U1vKgLJ4YUWI"
+*** You are running in headless mode.
+2018-07-02 11:22:55.488 plugin-container[28054:767150] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8703, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530501776235	Marionette	INFO	Listening on port 63760
+1530501776304	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-02 11:22:57.507 plugin-container[28055:767216] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x773f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-02 11:23:00.341 plugin-container[28054:767152] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/api.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/api.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530511971614	geckodriver	INFO	geckodriver 0.21.0
+1530511971641	geckodriver	INFO	Listening on 127.0.0.1:51196
+1530511972653	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.Y1mwZ8O5pm1G"
+*** You are running in headless mode.
+2018-07-02 14:12:56.757 plugin-container[29995:825506] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x793f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-02 14:12:57.539 plugin-container[29997:825559] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7907, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530511978037	Marionette	INFO	Listening on port 51213
+1530511978189	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-02 14:13:01.156 plugin-container[29995:825509] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530512115370	geckodriver	INFO	geckodriver 0.21.0
+1530512115383	geckodriver	INFO	Listening on 127.0.0.1:52118
+1530512116420	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.X3VHhVErICEd"
+*** You are running in headless mode.
+2018-07-02 14:15:18.891 plugin-container[30061:827394] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x773f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530512120086	Marionette	INFO	Listening on port 52138
+2018-07-02 14:15:20.103 plugin-container[30062:827460] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x893f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530512120124	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-02 14:15:23.728 plugin-container[30061:827396] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: https://global.fncstatic.com/static/orion/scripts/core/ag.core.js?v=20180607133417, line 158: Error: [Modulr] error loading script: https://global.fncstatic.com/static/orion/scripts/core/plugins/bootstrap.js
+1530512140233	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+JavaScript error: https://global.fncstatic.com/static/orion/scripts/core/ag.core.js?v=20180607133417, line 158: Error: [Modulr] error loading script: https://global.fncstatic.com/static/v/all/js/geo.js
+1530512140251	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1530512140252	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530512190744	geckodriver	INFO	geckodriver 0.21.0
+1530512190753	geckodriver	INFO	Listening on 127.0.0.1:52713
+1530512191778	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.6t7WZZJ0aZJH"
+*** You are running in headless mode.
+2018-07-02 14:16:34.463 plugin-container[30108:828139] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x763f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530512195338	Marionette	INFO	Listening on port 52730
+1530512195403	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-02 14:16:35.640 plugin-container[30109:828202] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8e3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-02 14:16:38.025 plugin-container[30108:828142] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530512286609	geckodriver	INFO	geckodriver 0.21.0
+1530512286619	geckodriver	INFO	Listening on 127.0.0.1:53499
+1530512287654	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.AImrI7nRBLyV"
+*** You are running in headless mode.
+2018-07-02 14:18:10.490 plugin-container[30157:829142] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7e03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530512291410	Marionette	INFO	Listening on port 53515
+1530512291474	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-02 14:18:11.675 plugin-container[30158:829202] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x6b43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-02 14:18:16.429 plugin-container[30157:829145] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 3: Error: [Modulr] error loading script: http://global.fncstatic.com/static/v/all/js/amd/apps/drawers/app/helper.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530512626411	geckodriver	INFO	geckodriver 0.21.0
+1530512626422	geckodriver	INFO	Listening on 127.0.0.1:55295
+1530512627442	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.5eVGhjLpbmte"
+*** You are running in headless mode.
+2018-07-02 14:23:50.063 plugin-container[30233:831347] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7a43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-02 14:23:50.977 plugin-container[30234:831395] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x753f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1530512631205	Marionette	INFO	Listening on port 55311
+1530512631250	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-02 14:23:56.707 plugin-container[30233:831348] NSNotificationCenter connection invalid
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+JavaScript error: https://global.fncstatic.com/static/orion/scripts/core/ag.core.js?v=20180607133417, line 158: Error: [Modulr] error loading script: https://global.fncstatic.com/static/orion/scripts/core/utils/modulr/master.js
+JavaScript error: https://global.fncstatic.com/static/orion/scripts/core/ag.core.js?v=20180607133417, line 158: Error: [Modulr] error loading script: https://global.fncstatic.com/static/orion/scripts/core/utils/cache.js?cb=201872142430
+JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?201705261158, line 19: ReferenceError: AuthenticationService_Janrain is not defined
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[Child 2008, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 1634, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 2051, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 1465, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 2051, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 1634, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 2008, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 2008, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 2051, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 2051, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 1106, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 1634, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
