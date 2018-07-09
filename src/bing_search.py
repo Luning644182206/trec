@@ -3,10 +3,10 @@
 # @author: luning644182206@emails.bjut.edu.cn
 
 import sys
-sys.path.append('/Users/luning04/work/trec/src')
-import urllib
-import urllib2
-import re
+sys.path.append('/Users/whs/work/trec-master/src')
+import re,urllib.parse,urllib.request,urllib.error
+from bs4 import BeautifulSoup as BS
+import requests
 from get_news import *
 from bs4 import BeautifulSoup as BS
 from selenium.webdriver import Firefox
@@ -50,7 +50,7 @@ class FoxNewsSearch:
         # bing查询默认query字段是q
         self.query['q'] = keyWordsEncode
         # 把query放在url里面，query=xxx  python2和3表达式有区别
-        querys = urllib.urlencode(self.query)
+        querys = urllib.parse.urlencode(self.query)
         # 处理分页的情况
         startNum = str(time * self.perPage)
         # 攒URL
@@ -68,7 +68,7 @@ class FoxNewsSearch:
         options.add_argument('-headless')  # 无头参数
         driver = Firefox(executable_path='./third_party/geckodriver', firefox_options = options)  # 配了环境变量第一个参数就可以省了，不然传绝对路径
         wait = WebDriverWait(driver, timeout = 5)
-        for index in range(self.times):
+        for index in range(int(self.times)):
             searchUrl = self.createURL(index)
             driver.get(searchUrl)
             wait.until(expected.visibility_of_element_located((By.CLASS_NAME, 'num-found')))
@@ -120,6 +120,7 @@ if __name__ == "__main__":
     a = FoxNewsSearch('donate money', 20)
     a.search()
     b = GetNews(a.results[0]['url'])
+    print(a.results[0]['url'])
     b.getnNews()
 # a = []
 # a = ['SD卡稍等', '大萨达所']
