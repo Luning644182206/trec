@@ -5,6 +5,7 @@
 import re,urllib.parse,urllib.request,urllib.error
 from bs4 import BeautifulSoup as BS
 import requests
+from nltk.corpus import stopwords
 
 class GetNews:
     newsURL = ''
@@ -12,10 +13,11 @@ class GetNews:
     def __init__(self, url):
         self.newsURL = url
 
-    def getnNews(self):
+    def getNews(self):
         try:
             html = requests.get(self.newsURL)
             soup = BS(html.text, 'html.parser')
+            # 把header和footer删除
             head = soup.find('head')
             head.decompose()
             header = soup.find('header')
@@ -24,11 +26,13 @@ class GetNews:
             length = len(footer)
             footer = footer[length - 1]
             footer.decompose()
-            content = soup.get_text().encode(encoding='UTF-8',errors='strict')
-            print (content.strip().split())
-            # for line in content.readlines():
-            #     # if (line.get_text() != ''):
-            #     print line
+            # 拿到内容
+            # content = soup.get_text().decode('UTF-8',errors='strict')
+            content = soup.get_text()
+            # 去停止词
+            text = ' '.join([word for word in content.strip().split() if word not in stopwords.words("english")])
+            # stripContent = text.strip().split()
+            print (text)
         except urllib.error.HTTPError as e:
               print(e.code)
         except urllib.error.URLError as e:

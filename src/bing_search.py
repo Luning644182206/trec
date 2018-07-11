@@ -15,29 +15,38 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as expected
 from selenium.webdriver.support.wait import WebDriverWait
 
-class FoxNewsSearch:
+class NewsSearch:
     keyWords = ''
-    baseUrl = 'http://www.foxnews.com/search-results/search?'
+    baseUrl = ''
     query = {}
     # searchUrl = ''
     results = []
     perPage = 0
     newsNum = 0
     times = 0
+    website = ''
+    websiteBaseURL = {
+        'foxNews': 'http://www.foxnews.com/search-results/search?',
+        'bbcNews': 'https://www.bbc.co.uk/search?' 
+    }
 
     '''
     init:       初始化数据
-    Input:      words     要初始化的数据
+    Input:      website   爬取的网站
+                words     要爬的新闻关键字
+                num       要爬取的篇数
     Output:     none
     others:     none
     '''
-    def __init__(self, words, num):
+    def __init__(self, website, words, num):
         # 默认每页10个
         self.perPage = 10
         self.newsNum = num
         self.keyWords = words
         self.times = num/self.perPage
-    
+        self.baseUrl = self.websiteBaseURL[website]
+        self.website = website
+
     '''
     createURL:  URL
     Input:      time 目前是第几次
@@ -58,12 +67,12 @@ class FoxNewsSearch:
         return searchUrl
 
     '''
-    search:     爬虫
-    Input:      none
-    Output:     none
-    others:     none
+    foxNewsSearch:     foxNews爬虫
+    Input:             none
+    Output:            none
+    others:            none
     '''
-    def search(self):
+    def foxNewsSearch(self):
         options = Options()
         options.add_argument('-headless')  # 无头参数
         driver = Firefox(executable_path='./third_party/geckodriver', firefox_options = options)  # 配了环境变量第一个参数就可以省了，不然传绝对路径
@@ -73,6 +82,7 @@ class FoxNewsSearch:
             driver.get(searchUrl)
             wait.until(expected.visibility_of_element_located((By.CLASS_NAME, 'num-found')))
             soup = BS(driver.page_source, 'html.parser')
+
             # 找到每条新闻块
             news = soup.findAll(class_= 'search-directive')
             for new in news:
@@ -93,38 +103,21 @@ class FoxNewsSearch:
                         result['url'] = url
                 if (result['url'] != ''):
                     self.results.append(result)
-        # print self.results
         driver.quit()
-        # try:
-        #     html = urllib2.urlopen(self.searchUrl)
-        #     soup = BS(html, 'html.parser')
-        #     td = soup.findAll('h2')
-        #     count = soup.findAll(class_="sb_count")
-        #     for c in count:
-        #         print(c.get_text())
 
-        #     for t in td:
-        #         print(t.get_text())
-        #         pattern = re.compile(r'href="([^"]*)"')
-        #         h = re.search(pattern,str(t))
-        #         if h:
-        #             for x in h.groups():
-        #                 print(x)
-        # except urllib2.HTTPError as e:
-        #     print(e.code)
-        # except urllib2.URLError as e:
-        #     print(e.reason) 
-
+    '''
+    search:     爬虫
+    Input:      none
+    Output:     none
+    others:     none
+    '''
+    def search(self):
+        # 动态选择爬虫函数，爬虫函数命名规则为website + Search
+        eval('self.' + self.website + 'Search')()
 
 if __name__ == "__main__":
-    a = FoxNewsSearch('donate money', 20)
+    a = NewsSearch('foxNews', 'donate money', 20)
     a.search()
     b = GetNews(a.results[0]['url'])
     print(a.results[0]['url'])
-    b.getnNews()
-# a = []
-# a = ['SD卡稍等', '大萨达所']
-# print str(a).decode("string_escape")
-# for item in a:
-#     print item
-# urllib2.parse.urlencode('a')
+    b.getNews()
