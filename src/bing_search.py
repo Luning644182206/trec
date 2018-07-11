@@ -4,9 +4,9 @@
 
 import sys
 sys.path.append('/Users/whs/work/trec-master/src')
-import re,urllib.parse,urllib.request,urllib.error
-from bs4 import BeautifulSoup as BS
+import re, urllib.parse, urllib.request, urllib.error
 import requests
+from bs4 import BeautifulSoup as BS
 from get_news import *
 from bs4 import BeautifulSoup as BS
 from selenium.webdriver import Firefox
@@ -19,7 +19,6 @@ class NewsSearch:
     keyWords = ''
     baseUrl = ''
     query = {}
-    # searchUrl = ''
     results = []
     perPage = 0
     newsNum = 0
@@ -87,8 +86,8 @@ class NewsSearch:
             news = soup.findAll(class_= 'search-directive')
             for new in news:
                 result = {
-                    'url': '',
-                    'title': ''
+                    'title': '',
+                    'url': ''
                 }
                 # 找标题
                 if new.find('h3'):
@@ -118,6 +117,6 @@ class NewsSearch:
 if __name__ == "__main__":
     a = NewsSearch('foxNews', 'donate money', 20)
     a.search()
-    b = GetNews(a.results[0]['url'])
+    b = GetNews(a.website, a.keyWords, a.results)
     print(a.results[0]['url'])
     b.getNews()
