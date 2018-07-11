@@ -113,10 +113,3 @@ class NewsSearch:
     def search(self):
         # 动态选择爬虫函数，爬虫函数命名规则为website + Search
         eval('self.' + self.website + 'Search')()
-
-if __name__ == "__main__":
-    a = NewsSearch('foxNews', 'donate money', 20)
-    a.search()
-    b = GetNews(a.website, a.keyWords, a.results)
-    print(a.results[0]['url'])
-    b.getNews()

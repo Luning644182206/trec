@@ -52,7 +52,7 @@ class GetNews:
                 # 去停止词
                 text = ' '.join([word for word in content.strip().split() if word not in stopwords.words("english")])
                 # stripContent = text.strip().split()
-                print (text)
+                # print (text)
                 # 保存
                 item['content'] = text
                 self.saveNews(item)
@@ -68,9 +68,9 @@ class GetNews:
     others:     none
     '''
     def saveNews(self, news):
+        # 文件的路径 命名方式参看公式即可
         filePath = './data/' + self.website + '_' + '_'.join(self.keyWords.split()) +  '_news.csv'
-        file = open(filePath,'a+')
+        file = open(filePath, 'a+')
         titleName = ['title','url', 'content']
         writer = csv.DictWriter(file, fieldnames = titleName)
-        # writer.writeheader()
         writer.writerow(news)
