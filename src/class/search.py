@@ -9,6 +9,7 @@ import requests
 from bs4 import BeautifulSoup as BS
 from get_news import *
 from bs4 import BeautifulSoup as BS
+from selenium.common.exceptions import TimeoutException
 from selenium.webdriver import Firefox
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
@@ -61,8 +62,8 @@ class NewsSearch:
         querys = urllib.parse.urlencode(self.query)
         # 处理分页的情况
         startNum = str(time * self.perPage)
-        # 攒URL
-        searchUrl = self.baseUrl + querys + '&ss=fn&start=' + startNum
+        # 攒URLhttps://www.bbc.co.uk/search?q=ss&sa_f=search-product&scope=
+        searchUrl = self.baseUrl + querys + '&sa_f=search-product&filter=news&suggid=#page='+startNum
         return searchUrl
 
     '''
@@ -71,27 +72,26 @@ class NewsSearch:
     Output:            none
     others:            none
     '''
-    def foxNewsSearch(self):
+    def bbcNewsSearch(self):#偷懒只改了函数名
         options = Options()
         options.add_argument('-headless')  # 无头参数
         driver = Firefox(executable_path='./third_party/geckodriver', firefox_options = options)  # 配了环境变量第一个参数就可以省了，不然传绝对路径
-        wait = WebDriverWait(driver, timeout = 5)
+        wait = WebDriverWait(driver, timeout = 30)#设置成30
         for index in range(int(self.times)):
             searchUrl = self.createURL(index)
             driver.get(searchUrl)
             wait.until(expected.visibility_of_element_located((By.CLASS_NAME, 'num-found')))
             soup = BS(driver.page_source, 'html.parser')
-
             # 找到每条新闻块
-            news = soup.findAll(class_= 'search-directive')
+            news = soup.findAll(class_= 'has_image media-text')
             for new in news:
                 result = {
                     'title': '',
                     'url': ''
                 }
                 # 找标题
-                if new.find('h3'):
-                    title = new.find('h3').get_text()
+                if new.find('h1'):#这里是h1
+                    title = new.find('h1').get_text()
                     result['title'] = title
                 # URL 正则
                 urlRE = re.compile(r'href="([^"]*)"')
