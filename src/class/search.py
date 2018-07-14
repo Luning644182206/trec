@@ -15,7 +15,15 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as expected
 from selenium.webdriver.support.wait import WebDriverWait
-
+class driverCommon:#定义一个类作为驱动
+    options = ''
+    driver = ''
+    wait = ''
+    def __init__(self):
+        self.options = Options()
+        self.options.add_argument('-headless')  # 无头参数
+        self.driver = Firefox(executable_path='./third_party/geckodriver', firefox_options = self.options)  # 配了环境变量第一个参数就可以省了，不然传绝对路径
+        self.wait = WebDriverWait(self.driver, timeout = 15)#设置成15
 class NewsSearch:
     keyWords = ''
     baseUrl = ''
@@ -53,7 +61,7 @@ class NewsSearch:
     Output:     none
     others:     none
     ''' 
-    def createURL(self, time):
+    def createURL(self, time,website):
         # UTF-8编码 错误处理方式是直接报错
         keyWordsEncode = self.keyWords.encode(encoding='UTF-8',errors='strict')
         # bing查询默认query字段是q
@@ -62,8 +70,9 @@ class NewsSearch:
         querys = urllib.parse.urlencode(self.query)
         # 处理分页的情况
         startNum = str(time * self.perPage)
-        # 攒URLhttps://www.bbc.co.uk/search?q=ss&sa_f=search-product&scope=
-        searchUrl = self.baseUrl + querys + '&sa_f=search-product&filter=news&suggid=#page='+startNum
+        #url字符串匹配做成一个字典
+        urlcode = {'foxNews':'&ss=fn&start=','bbcNews':'&sa_f=search-product&filter=news&suggid=#page='}
+        searchUrl = self.baseUrl + querys + urlcode[website]+startNum
         return searchUrl
 
     '''
@@ -72,16 +81,14 @@ class NewsSearch:
     Output:            none
     others:            none
     '''
-    def bbcNewsSearch(self):#偷懒只改了函数名
-        options = Options()
-        options.add_argument('-headless')  # 无头参数
-        driver = Firefox(executable_path='./third_party/geckodriver', firefox_options = options)  # 配了环境变量第一个参数就可以省了，不然传绝对路径
-        wait = WebDriverWait(driver, timeout = 30)#设置成30
+   
+    def bbcNewsSearch(self):#搜索bbc新闻
+        bbcDriver = driverCommon()#生成一个driver对象
         for index in range(int(self.times)):
-            searchUrl = self.createURL(index)
-            driver.get(searchUrl)
-            wait.until(expected.visibility_of_element_located((By.CLASS_NAME, 'num-found')))
-            soup = BS(driver.page_source, 'html.parser')
+            searchUrl = self.createURL(index,self.website)
+            bbcDriver.driver.get(searchUrl)
+            bbcDriver.wait.until(expected.visibility_of_element_located((By.CLASS_NAME, 'num-found')))
+            soup = BS(bbcDriver.driver.page_source, 'html.parser')
             # 找到每条新闻块
             news = soup.findAll(class_= 'has_image media-text')
             for new in news:
@@ -102,8 +109,35 @@ class NewsSearch:
                         result['url'] = url
                 if (result['url'] != ''):
                     self.results.append(result)
-        driver.quit()
-
+        bbcDriver.driver.quit()
+    def foxNewsSearch(self):#搜索火狐的新闻
+        foxDriver = driverCommon()
+        for index in range(int(self.times)):
+            searchUrl = self.createURL(index,self.website)
+            foxDriver.driver.get(searchUrl)
+            foxDriver.wait.until(expected.visibility_of_element_located((By.CLASS_NAME, 'num-found')))
+            soup = BS(foxDriver.driver.page_source, 'html.parser')
+            # 找到每条新闻块
+            news = soup.findAll(class_= 'search-directive')
+            for new in news:
+                result = {
+                    'title': '',
+                    'url': ''
+                }
+                # 找标题
+                if new.find('h3'):
+                    title = new.find('h3').get_text()
+                    result['title'] = title
+                # URL 正则
+                urlRE = re.compile(r'href="([^"]*)"')
+                urls = re.search(urlRE, str(new))
+                # 找URL
+                if urls:
+                    for url in urls.groups():
+                        result['url'] = url
+                if (result['url'] != ''):
+                    self.results.append(result)
+        foxDriver.driver.quit()
     '''
     search:     爬虫
     Input:      none

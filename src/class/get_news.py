@@ -60,6 +60,7 @@ class GetNews:
                   print(e.code)
             except urllib.error.URLError as e:
                   print(e.reason)
+        print('表格存储成功')          
 
     '''
     saveNews:   保存文章
