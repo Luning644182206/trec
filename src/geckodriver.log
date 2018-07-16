@@ -2782,3 +2782,43 @@ JavaScript error: http://global.fncstatic.com/static/v/all/js/ag.base.js?2017052
 1531547231055	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
 1531547231063	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531750596124	geckodriver	INFO	geckodriver 0.21.0
+1531750596150	geckodriver	INFO	Listening on 127.0.0.1:57703
+1531750597175	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.PYzMfMLyNSWp"
+*** You are running in headless mode.
+2018-07-16 22:16:40.750 plugin-container[17491:740430] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7243, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-16 22:16:41.318 plugin-container[17492:740465] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8543, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531750602098	Marionette	INFO	Listening on port 57715
+1531750602152	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-16 22:16:43.977 plugin-container[17494:740572] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8f3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.bbc.co.uk/search?q=donate+money&sa_f=search-product&filter=news&suggid=#page=0, line 193: ReferenceError: define is not defined
+JavaScript error: https://www.bbc.co.uk/search?q=donate+money&sa_f=search-product&filter=news&suggid=#page=0, line 195: ReferenceError: require is not defined
+JavaScript error: https://www.bbc.co.uk/search?q=donate+money&sa_f=search-product&filter=news&suggid=#page=0, line 195: ReferenceError: require is not defined
+JavaScript error: https://static.bbc.co.uk/id/0.37.24/modules/idcta/dist/idcta-1.min.js, line 9: ReferenceError: define is not defined
+JavaScript error: https://www.bbc.co.uk/search?q=donate+money&sa_f=search-product&filter=news&suggid=#page=0, line 195: Error: idcta: could not find require module
+JavaScript error: https://www.bbc.co.uk/search?q=donate+money&sa_f=search-product&filter=news&suggid=#page=0, line 204: ReferenceError: require is not defined
+JavaScript error: https://www.bbc.co.uk/search?q=donate+money&sa_f=search-product&filter=news&suggid=#page=0, line 232: ReferenceError: require is not defined
+JavaScript error: https://www.bbc.co.uk/search?q=donate+money&sa_f=search-product&filter=news&suggid=#page=0, line 244: ReferenceError: require is not defined
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-246.0c2b963/js/orb.min.js, line 1: ReferenceError: require is not defined
+JavaScript error: https://www.bbc.co.uk/search?q=donate+money&sa_f=search-product&filter=news&suggid=#page=0, line 790: ReferenceError: require is not defined
+JavaScript error: https://www.bbc.co.uk/search?q=donate+money&sa_f=search-product&filter=news&suggid=#page=0, line 873: ReferenceError: require is not defined
+JavaScript error: https://www.bbc.co.uk/search?q=donate+money&sa_f=search-product&filter=news&suggid=#page=0, line 880: ReferenceError: require is not defined
+JavaScript error: https://www.bbc.co.uk/search?q=donate+money&sa_f=search-product&filter=news&suggid=#page=0, line 880: ReferenceError: require is not defined
+JavaScript error: https://www.bbc.co.uk/search?q=donate+money&sa_f=search-product&filter=news&suggid=#page=0, line 945: ReferenceError: define is not defined
+JavaScript error: https://static.bbc.co.uk/search/5.1.64/script/search.js, line 1: ReferenceError: require is not defined
+1531751081040	geckodriver	INFO	geckodriver 0.21.0
+1531751081065	geckodriver	INFO	Listening on 127.0.0.1:59612
+1531751082076	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/8h/zx0jrj8d2_s2ys98jh_62yl40000gn/T/rust_mozprofile.NVdnDQoLsRSa"
+*** You are running in headless mode.
+2018-07-16 22:24:44.904 plugin-container[17669:744501] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8407, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-16 22:24:45.246 plugin-container[17670:744529] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b07, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531751085962	Marionette	INFO	Listening on port 59624
+1531751086021	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-16 22:24:46.226 plugin-container[17672:744627] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7443, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
