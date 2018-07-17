@@ -89,20 +89,19 @@ class NewsSearch:
             # 找到每条新闻块
             news = soup.findAll(class_='search-results results')
             print(len(news)) # 判断找到了几个，一个为失败
-            for new in news:
-                # 找标题
-                newBranch = new.findAll(class_='has_image media-text')
-                for ee in newBranch:
+            for new in news: # 大循环为ol块（页数）的循环，下面操作跟foxnews一致
+                newBranch = new.findAll(class_='has_image media-text') # 还有media-text先不采用
+                for content in newBranch:
                     result = {
                     'title': '',
                     'url': ''
                           } 
-                    whs = ee.find('h1')
-                    title = whs.get_text()
+                    h1Text = content.find('h1')
+                    title = h1Text.get_text()
                     result['title'] = title
                 # URL 正则
                     urlRE = re.compile(r'href="([^"]*)"')
-                    urls = re.search(urlRE, str(whs))
+                    urls = re.search(urlRE, str(h1Text))
                 # 找URL
                     if urls:
                         for url in urls.groups():
