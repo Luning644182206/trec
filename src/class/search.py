@@ -71,7 +71,7 @@ class NewsSearch:
         # 把query放在url里面，query=xxx  python2和3表达式有区别
         querys = urllib.parse.urlencode(self.query)
         # 处理分页的情况
-        startNum = str(time * self.perPage)
+        startNum = str((time * self.perPage)+5) # 默认page=5
         #url字符串匹配做成一个字典
         urlcode = {'foxNews':'&ss=fn&start=','bbcNews':'&sa_f=search-product&filter=news&suggid=#page='}
         searchUrl = self.baseUrl + querys + urlcode[website]+startNum
@@ -80,31 +80,35 @@ class NewsSearch:
     
     def bbcNewsSearch(self): # 搜索bbc新闻
         bbcDriver = driverCommon() # 生成一个driver对象
-        for index in range(int(self.times)):
+        for index in range(1):
             searchUrl = self.createURL(index,self.website)
             bbcDriver.driver.get(searchUrl)
-            # bbcDriver.wait.until(expected.visibility_of_element_located((By.CLASS_NAME, 'num-found')))
+            bbcDriver.wait.until(expected.visibility_of_element_located((By.CSS_SELECTOR, 'num-found')))
+            # 用标签li data-result number="xxx" 定位，但是不知道如何写
             soup = BS(bbcDriver.driver.page_source, 'html.parser')
             # 找到每条新闻块
-            news = soup.findAll(class_= 'has_image media-text')
+            news = soup.findAll(class_='search-results results')
+            print(len(news)) # 判断找到了几个，一个为失败
             for new in news:
-                result = {
+                # 找标题
+                newBranch = new.findAll(class_='has_image media-text')
+                for ee in newBranch:
+                    result = {
                     'title': '',
                     'url': ''
-                }
-                # 找标题
-                if new.find('h1'):#这里是h1
-                    title = new.find('h1').get_text()
+                          } 
+                    whs = ee.find('h1')
+                    title = whs.get_text()
                     result['title'] = title
                 # URL 正则
-                urlRE = re.compile(r'href="([^"]*)"')
-                urls = re.search(urlRE, str(new))
+                    urlRE = re.compile(r'href="([^"]*)"')
+                    urls = re.search(urlRE, str(whs))
                 # 找URL
-                if urls:
-                    for url in urls.groups():
-                        result['url'] = url
-                if (result['url'] != ''):
-                    self.results.append(result)
+                    if urls:
+                        for url in urls.groups():
+                            result['url'] = url
+                    if (result['url'] != ''):
+                        self.results.append(result)
         bbcDriver.driver.quit()
 
     '''
