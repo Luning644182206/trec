@@ -33,34 +33,64 @@ class GetNews:
     others:     none
     '''
     def getNews(self):
-        for item in self.newsURLs:
-            try:
-                html = requests.get(item['url'])
-                soup = BS(html.text, 'html.parser')
-                # 把header和footer删除
-                head = soup.find('head')
-                head.decompose()
-                header = soup.find('header')
-                header.decompose()
-                footer = soup.findAll('footer')
-                length = len(footer)
-                footer = footer[length - 1]
-                footer.decompose()
-                # 拿到内容
-                # content = soup.get_text().decode('UTF-8',errors='strict')
-                content = soup.get_text()
-                # 去停止词
-                text = ' '.join([word for word in content.strip().split() if word not in stopwords.words("english")])
-                # stripContent = text.strip().split()
-                # print (text)
-                # 保存
-                item['content'] = text
-                self.saveNews(item)
-            except urllib.error.HTTPError as e:
-                  print(e.code)
-            except urllib.error.URLError as e:
-                  print(e.reason)
-        print('表格存储成功')          
+        if self.website =='bbcNews':
+            for item in self.newsURLs:
+                try:
+                    html = requests.get(item['url'])
+                    soup = BS(html.text, 'html.parser')
+                    # 把header和footer删除
+                    head = soup.find('head')
+                    head.decompose()
+                    # #header = soup.find('header')
+                    # #header.decompose()
+                    # footer = soup.findAll('footer')
+                    # length = len(footer)
+                    # footer = footer[length - 1]
+                    # footer.decompose()
+                    # 拿到内容
+                    # content = soup.get_text().decode('UTF-8',errors='strict')
+                    content = soup.get_text()
+                    # 去停止词
+                    text = ' '.join([word for word in content.strip().split() if word not in stopwords.words("english")])
+                    # stripContent = text.strip().split()
+                    # print (text)
+                    # 保存
+                    item['content'] = text
+                    self.saveNews(item)
+                except urllib.error.HTTPError as e:
+                      print(e.code)
+                except urllib.error.URLError as e:
+                      print(e.reason)
+        else :
+            for item in self.newsURLs:
+                try:
+                    html = requests.get(item['url'])
+                    soup = BS(html.text, 'html.parser')
+                    # 把header和footer删除
+                    head = soup.find('head')
+                    head.decompose()
+                    header = soup.find('header')
+                    header.decompose()
+                    footer = soup.findAll('footer')
+                    length = len(footer)
+                    footer = footer[length - 1]
+                    footer.decompose()
+                    # 拿到内容
+                    # content = soup.get_text().decode('UTF-8',errors='strict')
+                    content = soup.get_text()
+                    # 去停止词
+                    text = ' '.join([word for word in content.strip().split() if word not in stopwords.words("english")])
+                    # stripContent = text.strip().split()
+                    # print (text)
+                    # 保存
+                    item['content'] = text
+                    self.saveNews(item)
+                except urllib.error.HTTPError as e:
+                      print(e.code)
+                except urllib.error.URLError as e:
+                      print(e.reason)
+        print('表格存储成功')
+
 
     '''
     saveNews:   保存文章

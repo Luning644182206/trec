@@ -37,7 +37,7 @@ class NewsSearch:
     website = ''
     websiteBaseURL = {
         'foxNews': 'http://www.foxnews.com/search-results/search?',
-        'bbcNews': 'https://www.bbc.co.uk/search?' 
+        'bbcNews': 'https://www.bbc.co.uk/search/more?page=' 
     }
 
     '''
@@ -71,31 +71,36 @@ class NewsSearch:
         # 把query放在url里面，query=xxx  python2和3表达式有区别
         querys = urllib.parse.urlencode(self.query)
         # 处理分页的情况
-        startNum = str((time * self.perPage)+5) # 默认page=5
-        #url字符串匹配做成一个字典
-        urlcode = {'foxNews':'&ss=fn&start=','bbcNews':'&sa_f=search-product&filter=news&suggid=#page='}
-        searchUrl = self.baseUrl + querys + urlcode[website]+startNum
+        if website == 'foxNews': # 判断是bbc还是fox
+            startNum = str((time * self.perPage)) 
+            searchUrl = self.baseUrl + querys +'&ss=fn&start='+startNum
+        else:
+            startNum = str(time+1) # page从1开始，time从0开始
+            keyWords='+'.join(self.keyWords.split()) # bbc的查询空格转换为+号
+            searchUrl = self.baseUrl + startNum + '&q=' + keyWords + '&sa_f=search-product&filter=news&suggid='
         return searchUrl
 
     
     def bbcNewsSearch(self): # 搜索bbc新闻
         bbcDriver = driverCommon() # 生成一个driver对象
-        for index in range(1):
+        for index in range(int(self.times)):
             searchUrl = self.createURL(index,self.website)
+            print(searchUrl)
             bbcDriver.driver.get(searchUrl)
-            bbcDriver.wait.until(expected.visibility_of_element_located((By.CSS_SELECTOR, 'num-found')))
+            #bbcDriver.wait.until(expected.visibility_of_element_located((By.CLASS_NAME, 'search-results')))
             # 用标签li data-result number="xxx" 定位，但是不知道如何写
             soup = BS(bbcDriver.driver.page_source, 'html.parser')
+            #print (soup.prettify())
             # 找到每条新闻块
-            news = soup.findAll(class_='search-results results')
+            news = soup.findAll('li',attrs={'data-result-number=':''})
             print(len(news)) # 判断找到了几个，一个为失败
             for new in news: # 大循环为ol块（页数）的循环，下面操作跟foxnews一致
                 newBranch = new.findAll(class_='has_image media-text') # 还有media-text先不采用
                 for content in newBranch:
                     result = {
-                    'title': '',
-                    'url': ''
-                          } 
+                        'title': '',
+                        'url': ''
+                    } 
                     h1Text = content.find('h1')
                     title = h1Text.get_text()
                     result['title'] = title
@@ -107,6 +112,7 @@ class NewsSearch:
                         for url in urls.groups():
                             result['url'] = url
                     if (result['url'] != ''):
+                        print(result) # 在终端打印结果 可以注释掉
                         self.results.append(result)
         bbcDriver.driver.quit()
 
