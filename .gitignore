@@ -2,3 +2,6 @@ geckodriver.log
 ghostdriver.log
 __pycache__/*
 .DS_Store
+src/geckodriver.log
+src/data/.DS_Store
+src/class/__pycache__/*
