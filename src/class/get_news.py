@@ -38,15 +38,15 @@ class GetNews:
                 try:
                     html = requests.get(item['url'])
                     soup = BS(html.text, 'html.parser')
+                    # 把script都删除
+                    [scriptPart.extract() for scriptPart in soup('script')]
                     # 把header和footer删除
                     head = soup.find('head')
                     head.decompose()
-                    # #header = soup.find('header')
-                    # #header.decompose()
-                    # footer = soup.findAll('footer')
-                    # length = len(footer)
-                    # footer = footer[length - 1]
-                    # footer.decompose()
+                    footer = soup.findAll('footer')
+                    length = len(footer)
+                    footer = footer[length - 1]
+                    footer.decompose()
                     # 拿到内容
                     # content = soup.get_text().decode('UTF-8',errors='strict')
                     content = soup.get_text()

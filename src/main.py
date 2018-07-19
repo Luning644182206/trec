@@ -8,7 +8,7 @@ from search import NewsSearch
 from get_news import GetNews
 
 if __name__ == "__main__":
-    a = NewsSearch('foxNews', 'donate money', 30)
+    a = NewsSearch('bbcNews', 'donate money', 10)
     a.search()
     b = GetNews(a.website, a.keyWords, a.results)
     b.getNews()
