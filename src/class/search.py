@@ -6,25 +6,9 @@ import sys
 sys.path.append('/Users/whs/work/trec-master/src')
 import re, urllib.parse, urllib.request, urllib.error
 import requests
-from bs4 import BeautifulSoup as BS
 from get_news import *
 from bs4 import BeautifulSoup as BS
-from selenium.common.exceptions import TimeoutException
-from selenium.webdriver import Firefox
-from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.support import expected_conditions as expected
-from selenium.webdriver.support.wait import WebDriverWait
-# 定义一个类作为驱动
-class driverCommon:
-    options = ''
-    driver = ''
-    wait = ''
-    def __init__(self):
-        self.options = Options()
-        self.options.add_argument('-headless')  # 无头参数
-        self.driver = Firefox(executable_path='./third_party/geckodriver', firefox_options = self.options)  # 配了环境变量第一个参数就可以省了，不然传绝对路径
-        self.wait = WebDriverWait(self.driver, timeout = 15) # 设置成15
+from driver_common import *
 
 class NewsSearch:
     keyWords = ''
@@ -82,38 +66,41 @@ class NewsSearch:
 
     
     def bbcNewsSearch(self): # 搜索bbc新闻
-        bbcDriver = driverCommon() # 生成一个driver对象
+        bbcDriver = DriverCommon() # 生成一个driver对象
         for index in range(int(self.times)):
-            searchUrl = self.createURL(index,self.website)
-            print(searchUrl)
-            bbcDriver.driver.get(searchUrl)
-            #bbcDriver.wait.until(expected.visibility_of_element_located((By.CLASS_NAME, 'search-results')))
-            # 用标签li data-result number="xxx" 定位，但是不知道如何写
-            soup = BS(bbcDriver.driver.page_source, 'html.parser')
-            #print (soup.prettify())
-            # 找到每条新闻块
-            news = soup.findAll('li',attrs={'data-result-number=':''})
-            print(len(news)) # 判断找到了几个，一个为失败
-            for new in news: # 大循环为ol块（页数）的循环，下面操作跟foxnews一致
-                newBranch = new.findAll(class_='has_image media-text') # 还有media-text先不采用
-                for content in newBranch:
-                    result = {
-                        'title': '',
-                        'url': ''
-                    } 
-                    h1Text = content.find('h1')
-                    title = h1Text.get_text()
-                    result['title'] = title
-                # URL 正则
-                    urlRE = re.compile(r'href="([^"]*)"')
-                    urls = re.search(urlRE, str(h1Text))
-                # 找URL
-                    if urls:
-                        for url in urls.groups():
-                            result['url'] = url
-                    if (result['url'] != ''):
-                        print(result) # 在终端打印结果 可以注释掉
-                        self.results.append(result)
+            try:
+                searchUrl = self.createURL(index,self.website)
+                print(searchUrl)
+                bbcDriver.driver.get(searchUrl)
+                #bbcDriver.wait.until(expected.visibility_of_element_located((By.CLASS_NAME, 'search-results')))
+                # 用标签li data-result number="xxx" 定位，但是不知道如何写
+                soup = BS(bbcDriver.driver.page_source, 'html.parser')
+                #print (soup.prettify())
+                # 找到每条新闻块
+                news = soup.findAll('li',attrs={'data-result-number=':''})
+                print(len(news)) # 判断找到了几个，一个为失败
+                for new in news: # 大循环为ol块（页数）的循环，下面操作跟foxnews一致
+                    newBranch = new.findAll(class_='has_image media-text') # 还有media-text先不采用
+                    for content in newBranch:
+                        result = {
+                            'title': '',
+                            'url': ''
+                        } 
+                        h1Text = content.find('h1')
+                        title = h1Text.get_text()
+                        result['title'] = title
+                    # URL 正则
+                        urlRE = re.compile(r'href="([^"]*)"')
+                        urls = re.search(urlRE, str(h1Text))
+                    # 找URL
+                        if urls:
+                            for url in urls.groups():
+                                result['url'] = url
+                        if (result['url'] != ''):
+                            print(result) # 在终端打印结果 可以注释掉
+                            self.results.append(result)
+            except:
+                print('error in search')
         bbcDriver.driver.quit()
 
     '''
@@ -123,32 +110,35 @@ class NewsSearch:
     others:            none
     '''    
     def foxNewsSearch(self): # 搜索火狐的新闻
-        foxDriver = driverCommon()
+        foxDriver = DriverCommon()
         for index in range(int(self.times)):
-            searchUrl = self.createURL(index, self.website)
-            foxDriver.driver.get(searchUrl)
-            foxDriver.wait.until(expected.visibility_of_element_located((By.CLASS_NAME, 'num-found')))
-            soup = BS(foxDriver.driver.page_source, 'html.parser')
-            # 找到每条新闻块
-            news = soup.findAll(class_= 'search-directive')
-            for new in news:
-                result = {
-                    'title': '',
-                    'url': ''
-                }
-                # 找标题
-                if new.find('h3'):
-                    title = new.find('h3').get_text()
-                    result['title'] = title
-                # URL 正则
-                urlRE = re.compile(r'href="([^"]*)"')
-                urls = re.search(urlRE, str(new))
-                # 找URL
-                if urls:
-                    for url in urls.groups():
-                        result['url'] = url
-                if (result['url'] != ''):
-                    self.results.append(result)
+            try:
+                searchUrl = self.createURL(index, self.website)
+                foxDriver.driver.get(searchUrl)
+                foxDriver.wait.until(expected.visibility_of_element_located((By.CLASS_NAME, 'num-found')))
+                soup = BS(foxDriver.driver.page_source, 'html.parser')
+                # 找到每条新闻块
+                news = soup.findAll(class_= 'search-directive')
+                for new in news:
+                    result = {
+                        'title': '',
+                        'url': ''
+                    }
+                    # 找标题
+                    if new.find('h3'):
+                        title = new.find('h3').get_text()
+                        result['title'] = title
+                    # URL 正则
+                    urlRE = re.compile(r'href="([^"]*)"')
+                    urls = re.search(urlRE, str(new))
+                    # 找URL
+                    if urls:
+                        for url in urls.groups():
+                            result['url'] = url
+                    if (result['url'] != ''):
+                        self.results.append(result)
+            except:
+                print('error in search')
         foxDriver.driver.quit()
     '''
     search:     爬虫
