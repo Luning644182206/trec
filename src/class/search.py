@@ -5,6 +5,8 @@
 import sys
 sys.path.append('/Users/whs/work/trec-master/src')
 import re, urllib.parse, urllib.request, urllib.error
+import socks
+import socket
 import requests
 from get_news import *
 from bs4 import BeautifulSoup as BS
@@ -114,6 +116,7 @@ class NewsSearch:
         for index in range(int(self.times)):
             try:
                 searchUrl = self.createURL(index, self.website)
+                print(searchUrl)
                 foxDriver.driver.get(searchUrl)
                 foxDriver.wait.until(expected.visibility_of_element_located((By.CLASS_NAME, 'num-found')))
                 soup = BS(foxDriver.driver.page_source, 'html.parser')
