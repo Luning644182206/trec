@@ -12,7 +12,7 @@ from get_news import GetNews
 # from urllib import request
 
 if __name__ == "__main__":
-    a = NewsSearch('foxNews', 'donate money', 200)
+    a = NewsSearch('twitterNews', 'donate money', 500)
     a.search()
     b = GetNews(a.website, a.keyWords, a.results)
     b.getNews()

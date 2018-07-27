@@ -37,9 +37,8 @@ class GetNews:
     others:     none
     '''
     def getNews(self):
-        if self.website =='bbcNews':
+        if (self.website =='bbcNews'):
             for item in self.newsURLs:
-                print(item['url'])
                 try:
                     html = requests.get(item['url'], proxies = self.proxies, timeout = 10)
                     soup = BS(html.text, 'html.parser')
@@ -61,10 +60,9 @@ class GetNews:
                 except:
                     print('save faild')
                     self.saveNews(item, False)
-        else :
+        elif (self.website =='foxNews') :
             for item in self.newsURLs:
                 try:
-                    print(item['url'])
                     html = requests.get(item['url'])
                     soup = BS(html.text, 'html.parser')
                     # 把script都删除
@@ -81,6 +79,11 @@ class GetNews:
                 except:
                     print('save faild')
                     self.saveNews(item, False)
+        else:
+            # 处理twitter
+            for item in self.newsURLs:
+                # 保存
+                self.saveNews(item, True)
         print('表格存储成功')
 
 
@@ -98,6 +101,11 @@ class GetNews:
         else:
             filePath = './data/faild.csv'
         file = open(filePath, 'a+')
-        titleName = ['title','url', 'content']
+        # 文件的头
+        titleName = []
+        if (self.website == 'twitterNews'):
+            titleName = ['name', 'content', 'retweeted', 'created_at']
+        else:
+            titleName = ['title','url', 'content']
         writer = csv.DictWriter(file, fieldnames = titleName)
         writer.writerow(news)

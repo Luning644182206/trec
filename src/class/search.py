@@ -11,6 +11,7 @@ import requests
 from get_news import *
 from bs4 import BeautifulSoup as BS
 from driver_common import *
+from search_twitter import *
 
 class NewsSearch:
     keyWords = ''
@@ -23,7 +24,8 @@ class NewsSearch:
     website = ''
     websiteBaseURL = {
         'foxNews': 'http://www.foxnews.com/search-results/search?',
-        'bbcNews': 'https://www.bbc.co.uk/search/more?page=' 
+        'bbcNews': 'https://www.bbc.co.uk/search/more?page=',
+        'twitterNews': ''
     }
 
     '''
@@ -66,7 +68,12 @@ class NewsSearch:
             searchUrl = self.baseUrl + startNum + '&q=' + keyWords + '&sa_f=search-product&filter=news&suggid='
         return searchUrl
 
-    
+    '''
+    bbcNewsSearch:     bbcNews爬虫
+    Input:             none
+    Output:            none
+    others:            none
+    '''
     def bbcNewsSearch(self): # 搜索bbc新闻
         bbcDriver = DriverCommon() # 生成一个driver对象
         for index in range(int(self.times)):
@@ -110,7 +117,7 @@ class NewsSearch:
     Input:             none
     Output:            none
     others:            none
-    '''    
+    '''
     def foxNewsSearch(self): # 搜索火狐的新闻
         foxDriver = DriverCommon()
         for index in range(int(self.times)):
@@ -143,6 +150,18 @@ class NewsSearch:
             except:
                 print('error in search')
         foxDriver.driver.quit()
+
+    '''
+    TwitterNewsSearch:     twitterNews爬虫
+    Input:                 none
+    Output:                none
+    others:                none
+    '''
+    def twitterNewsSearch(self):
+        twitterNews = SearchTwitter(self.keyWords, self.newsNum)
+        datas = twitterNews.search()
+        self.results = datas
+
     '''
     search:     爬虫
     Input:      none

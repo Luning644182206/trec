@@ -4,11 +4,12 @@
 
 import logging
 import csv
+import re
 from gensim.models import word2vec
 from nltk.corpus import stopwords
 
 class WordToVec:
-    interpunctions = ['-', '[', ']', '(', ')', '"', '#', ':', "'", '.', ',', '?', '//', '/', '{', '}', '!', '@', '&', '\r', '\t', '\f']
+    interpunctions = [';', '_', '’', '…', 'rt', 'via', '-', '[', ']', '(', ')', '"', '#', ':', "'", '.', ',', '?', '//', '/', '{', '}', '!', '@', '&', '\r', '\t', '\f']
     openFiles = []
 
     '''
@@ -43,8 +44,8 @@ class WordToVec:
         model = word2vec.Word2Vec(sentences , size = 200)
         # print (model)
         # # 计算某个词的相关词列表
-        y2 = model.most_similar("donate", topn=50)  # 20个最相关的
-        print("和donate最相关的词有：\n")
+        y2 = model.most_similar("money", topn=50)  # 20个最相关的
+        print("和moneye最相关的词有：\n")
         for item in y2:
             print(item[0], item[1])
     
@@ -55,21 +56,24 @@ class WordToVec:
         for path in self.openFiles:
             data = csv.reader(open(path, 'r'))
             for row in data:
-                content = row[2]
+                if (path.find('twitterNews')):
+                    content = row[1] + ' ' + row[2]
+                else:
+                    content = row[2]
+                replace = ' '
+                urlRE = r'(http|ftp|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?'
+                content = re.sub(urlRE, replace, str(content))
+                # 去标点
+                content = self.clearIn(content)
                 datas = ' ' + content + datas
-        # 去标点
-        datas = self.clearIn(datas)
         # 存储
-        file = open("text_temp.txt", "wb")
-        file.write(datas.encode("utf-8"))
+        file = open('text_temp.txt', 'wb')
+        file.write(datas.encode('utf-8'))
         file.close()
 
 
 if __name__ == "__main__":
-    a = WordToVec(['../data/bbcNews_donate_money_news.csv'])
+    # a = WordToVec(['../data/foxNews_donate_money_news.csv', '../data/bbcNews_donate_money_news.csv', '../data/twitterNews_donate_money_news.csv'])
+    a = WordToVec(['../data/twitterNews_donate_money_news.csv'])
     a.preData()
     a.wordToVec()
-    # file = open(r'./text1.txt')
-    # text = file.readlines()
-    # a = WordToVec([], text[0])
-    # a.wordToVec()
