@@ -44,8 +44,8 @@ class WordToVec:
         model = word2vec.Word2Vec(sentences , size = 200)
         # print (model)
         # # 计算某个词的相关词列表
-        y2 = model.most_similar("money", topn=50)  # 20个最相关的
-        print("和moneye最相关的词有：\n")
+        y2 = model.most_similar("missing", topn=50)  # 20个最相关的
+        print("和missing最相关的词有：\n")
         for item in y2:
             print(item[0], item[1])
     
@@ -73,7 +73,7 @@ class WordToVec:
 
 
 if __name__ == "__main__":
-    # a = WordToVec(['../data/foxNews_donate_money_news.csv', '../data/bbcNews_donate_money_news.csv', '../data/twitterNews_donate_money_news.csv'])
-    a = WordToVec(['../data/twitterNews_donate_money_news.csv'])
+    a = WordToVec(['../data/news/twitterNews_Request-InformationWanted_missing_persons_news.csv'])
+    # a = WordToVec(['../data/twitterNews_donate_money_news.csv'])
     a.preData()
     a.wordToVec()

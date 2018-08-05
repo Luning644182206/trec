@@ -16,6 +16,7 @@ class GetNews:
         'http': 'http://127.0.0.1:1087',
         'https': 'https://127.0.0.1:1087'
     }
+    classType = ''
 
     '''
     init:       初始化数据
@@ -25,10 +26,12 @@ class GetNews:
     Output:     none
     others:     none
     '''
-    def __init__(self, website, words, URLs):
+    def __init__(self, website, type, words, URLs):
         self.newsURLs = URLs
         self.keyWords = words
         self.website = website
+        self.classType = type
+
 
     '''
     getNews:    爬文章
@@ -97,7 +100,7 @@ class GetNews:
         filePath = ''
         if (type):
         # 文件的路径 命名方式参看公式即可
-            filePath = './data/' + self.website + '_' + '_'.join(self.keyWords.split()) +  '_news.csv'
+            filePath = './data/news/' + self.website + '_' + self.classType + '_' + '_'.join(self.keyWords.split()) +  '_news.csv'
         else:
             filePath = './data/faild.csv'
         file = open(filePath, 'a+')

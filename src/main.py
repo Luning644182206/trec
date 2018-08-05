@@ -6,16 +6,47 @@ import sys
 sys.path.append('./class')
 from search import NewsSearch
 from get_news import GetNews
+import csv
+import re
 # import socks
 # import socket
 # import requests
 # from urllib import request
 
+def splitWords(words):
+    # 按大写字母做拆分
+    pattern = '[A-Z]'
+    # 遇到大写字母就给加空格
+    newWords = re.sub(pattern, lambda x:' ' + x.group(0), words)
+    # 出去头尾空格
+    newWords = newWords.strip()
+    # 变成小写
+    newWords = newWords.lower()
+    return newWords
+
 if __name__ == "__main__":
-    a = NewsSearch('twitterNews', 'donate money', 500)
-    a.search()
-    b = GetNews(a.website, a.keyWords, a.results)
-    b.getNews()
+    newsTypes = ['twitterNews']
+    newsNum = 1000
+    data = csv.reader(open('./data/json_long_list.csv', 'r'))
+    for row in data:
+        classType = row[0]
+        keyWords = row[1]
+        keywordsSearch = []
+        print('keywords Search')
+        # 处理字符串
+        if (keyWords.find('/') > 0):
+            keyWords = keyWords.split('/')
+            for word in keyWords:
+                keywordsSearch.append(splitWords(word))
+        else:
+            keywordsSearch.append(splitWords(keyWords))
+        # 按照关键词去爬数据
+        for key in keywordsSearch:
+            for newsType in newsTypes:
+                searchNews = NewsSearch(newsType, classType, key, newsNum)
+                searchNews.search()
+                get = GetNews(searchNews.website, searchNews.classType, searchNews.keyWords, searchNews.results)
+                get.getNews()
 
     # 测试代理
     # socks.set_default_proxy(socks.SOCKS5, "127.0.0.1", 1086)

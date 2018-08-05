@@ -27,6 +27,7 @@ class NewsSearch:
         'bbcNews': 'https://www.bbc.co.uk/search/more?page=',
         'twitterNews': ''
     }
+    classType = ''
 
     '''
     init:       初始化数据
@@ -36,7 +37,7 @@ class NewsSearch:
     Output:     none
     others:     none
     '''
-    def __init__(self, website, words, num):
+    def __init__(self, website, type, words, num):
         # 默认每页10个
         self.perPage = 10
         self.newsNum = num
@@ -44,6 +45,7 @@ class NewsSearch:
         self.times = num/self.perPage
         self.baseUrl = self.websiteBaseURL[website]
         self.website = website
+        self.classType = type
 
     '''
     createURL:  URL

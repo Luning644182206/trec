@@ -6,6 +6,7 @@
 import tweepy
 import socks
 import socket
+from retrying import retry
 
 class SearchTwitter:
     api = ''
@@ -36,10 +37,15 @@ class SearchTwitter:
         # 记录关键词
         self.keyWord = key
 
+    # @retry(wait_exponential_multiplier=1000, wait_exponential_max=10000)
     def search(self):
+        print(self.keyWord)
         datas = []
+        couter = 0
         # 搜索关键词相关的推文
-        for tweet in tweepy.Cursor(self.api.search, tweet_mode = 'extended', q = self.keyWord).items(self.newsNum):
+        for tweet in tweepy.Cursor(self.api.search, tweet_mode='extended', q=self.keyWord, wait_on_rate_limit=True, wait_on_rate_limit_notify=True).items(self.newsNum):
+            couter += 1
+            print(couter)
             twitter = tweet._json
             oneTweet = {}
             # 发推人的名字
@@ -54,12 +60,14 @@ class SearchTwitter:
             # 创建时间
             oneTweet['created_at'] = twitter['created_at']
             datas.append(oneTweet)
+        # print(datas)
         return datas
 
 # if __name__ == "__main__":
-#     a = SearchTwitter('donate money', 100)
+#     a = SearchTwitter('donate money', 1000)
 #     a.search()
-
+#     b = SearchTwitter('love', 1000)
+#     b.search()
 
 
 
