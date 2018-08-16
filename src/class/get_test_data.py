@@ -37,6 +37,12 @@ for item in file:
     try:
         content = api.get_status(writeData['postID'], tweet_mode='extended')
         content = content.full_text
+        # 转发的原文
+        try:
+            writeData['retweeted'] = content.retweeted_status.full_text
+        except:
+            writeData['retweeted'] = ''
+            print('false')
     except:
         print('not exit')
     writeData['content'] = content
@@ -44,31 +50,6 @@ for item in file:
     filePath = '../data/test_data/test_data.csv'
     fileTest = open(filePath, 'a+')
     # 文件的头
-    titleName = ['label', 'event', 'postID', 'content']
+    titleName = ['label', 'event', 'postID', 'content', 'retweeted']
     writer = csv.DictWriter(fileTest, fieldnames=titleName)
     writer.writerow(writeData)
-# 遍历抓取
-# for event in events:
-#     eventID = event['eventid']
-#     tweets = event['tweets']
-#     # 抓取
-#     for tweet in tweets:
-#         writeData = {
-#             'eventID': eventID,
-#             'postID': tweet['postID'],
-#             'categories': ','.join(tweet['categories']),
-#             'indicatorTerms': ','.join(tweet['indicatorTerms']),
-#             'priority': tweet['priority']
-#         }
-#         try:
-#             content = api.get_status(writeData['postID'], tweet_mode='extended')
-#             writeData['content'] = content.full_text
-#             # 存储
-#             filePath = '../data/traning_data/traning_data.csv'
-#             file = open(filePath, 'a+')
-#             # 文件的头
-#             titleName = ['eventID', 'postID', 'categories', 'indicatorTerms', 'priority', 'content']
-#             writer = csv.DictWriter(file, fieldnames=titleName)
-#             writer.writerow(writeData)
-#         except:
-#             print('not exit')

@@ -43,12 +43,18 @@ for event in events:
         try:
             content = api.get_status(writeData['postID'], tweet_mode='extended')
             writeData['content'] = content.full_text
+            # 转发的原文
+            try:
+                writeData['retweeted'] = content.retweeted_status.full_text
+            except:
+                writeData['retweeted'] = ''
             # 存储
             filePath = '../data/traning_data/traning_data.csv'
             file = open(filePath, 'a+')
             # 文件的头
-            titleName = ['eventID', 'postID', 'categories', 'indicatorTerms', 'priority', 'content']
+            titleName = ['eventID', 'postID', 'categories', 'indicatorTerms', 'priority', 'content', 'retweeted']
             writer = csv.DictWriter(file, fieldnames=titleName)
             writer.writerow(writeData)
         except:
             print('not exit')
+print('done')
