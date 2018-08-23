@@ -12,9 +12,9 @@ def loadJson(path): # 列表形式存储json数据
             tweetslens = id[i]["tweets"]
             for e in range(len(tweetslens)):
                 item["content"] = id[i]["tweets"][e]["indicatorTerms"]
-                if len(id[i]["tweets"][e]["indicatorTerms"]) != 0 :
+                if len(id[i]["tweets"][e]["indicatorTerms"]) != 0 : # 清除空列的数据
                     item["level"] = id[i]["tweets"][e]["priority"]
-                    saveNews(item,True,path) #True为列表形式
+                    saveNews(item,path) #True为列表形式
         # for i in id :
         # print (id)
 
@@ -30,13 +30,10 @@ def loadJson(path): # 列表形式存储json数据
 #                 item["content"] =  id[i]["exampleLowLevelTypes"][j]
 #             saveNews(item,False) # False为长列表格式
 
-def saveNews(news, type,path):
+def saveNews(news,path):
         filePath = ''
-        if (type):
         # 文件的路径 保存在与json文件同一个文件夹下
             filePath = path+'json.csv'
-        else:
-            filePath = '/Users/whs/work/trec-master/src/data/jsonLonglist.csv'
         file = open(filePath, 'a+')
         titleName = ['id','content','level']
         writer = csv.DictWriter(file, fieldnames = titleName)
@@ -45,4 +42,3 @@ def saveNews(news, type,path):
 
 if __name__ == "__main__":
     loadJson("/Users/whs/work/trec-master/src/data/TRECIS-CTIT-H-Training.json")
-    #loadJsonLongList("/Users/whs/work/trec-master/src/class/ITR-H.types.json")

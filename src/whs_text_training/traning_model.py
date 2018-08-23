@@ -86,9 +86,9 @@ def readtrain(paths):
                 urlRE = r'(http|ftp|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?'
                 content = re.sub(urlRE, replace, str(content))
                 content = clearIn(content)
-                dataPush = [content, row[2]]
+                dataPush = [content, row[2]] # 第三个为level
                 datas.append(dataPush)
-            splitNum = int(counter/9)
+            splitNum = int(counter/9)  #分成九份，8份训练，1份测试
             testDatas += datas[:splitNum]
             trainingDatas += datas[splitNum:]
     return trainingDatas, testDatas
@@ -105,7 +105,7 @@ if __name__ == '__main__':
     # path = '../data/news/'
     path = '../whs_text_training/data/'
     allFile = os.listdir(path)
-    for i in range(len(allFile)):
+    for i in range(len(allFile)): # 按照六大类别分别做模型
         filePaths = []
         name = path + allFile[i]
         filePaths.append(name)
@@ -120,7 +120,8 @@ if __name__ == '__main__':
         textClf = Pipeline([('vect', CountVectorizer()), ('tfidf', TfidfTransformer()), ('clf', SVC(C=1.0, kernel = 'linear'))])
         textClf = textClf.fit(trainContent, trainOpinion)
         # 保存模型
-        joblib.dump(textClf, '../whs_text_training/model/'+allFile[i]+'.m')
+        model_name = allFile[i].split('.')[0]
+        joblib.dump(textClf, '../whs_text_training/model/'+model_name+'.m')
         predicted = textClf.predict(testContent)
         print ('SVC',np.mean(predicted == testOpinion))
         print (set(predicted))
