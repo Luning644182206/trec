@@ -11,7 +11,7 @@ import csv
 import re
 import os
 
-path = '../data/news/'
+path = '../data/original_news/'
 allFile = os.listdir(path)
 filePaths = []
 for fileName in allFile:
@@ -39,7 +39,7 @@ for path in filePaths:
         startIndex = index + 1
         if (startIndex < len(allDatas)):
             for index,oneData in enumerate(allDatas[startIndex:]):
-                if (reData == oneData[2] and conData == oneData[1]):
+                if (reData == oneData[2] and conData == oneData[1] and len(oneData) > 3):
                     allDatas[startIndex + index][4] = False
 
     # 写数据
@@ -51,7 +51,7 @@ for path in filePaths:
             oneTweet['name'] = data[0]
             oneTweet['content'] = data[1]
             oneTweet['retweeted'] = data[2]
-            oneTweet['created_at'] = data = [3]
+            oneTweet['created_at'] = data[3]
             # 文件的头
             titleName = ['name', 'content', 'retweeted', 'created_at']
             writer = csv.DictWriter(file, fieldnames=titleName)

@@ -20,7 +20,7 @@ Output:     none
 others:     none
 '''
 def clearIn(text):
-    interpunctions = [';', '_', '’', '…', 'rt', 'via', '-', '[', ']', '(', ')', '"', '#', ':', "'", '.', ',', '?', '//', '/', '{', '}', '!', '&', '\r', '\t', '\f']
+    interpunctions = [';', '_', '’', '…', 'rt', 'via', '-', '[', ']', '(', ')', '"', ':', "'", '.', ',', '?', '//', '/', '{', '}', '!', '&', '\r', '\t', '\f']
     text = text.lower()
     text = text.strip(' ')
     text = ' '.join([word for word in text.strip().split() if word not in stopwords.words("english")])
@@ -31,70 +31,70 @@ def clearIn(text):
             text = text.replace(inter, ' ')
     return text
 
+# 读取训练集(ontology)
+def readtrain(paths):
+    trainingDatas = []
+    testDatas = []
+
+    for path in paths:
+        fileName = path.split('/')[3]
+        nameSplit = fileName.split('_')
+        source = nameSplit[0]
+        fatherLabel = nameSplit[1]
+        sonLabel = '_'.join(nameSplit[2:-1])
+        counter = 0
+
+        # 打开文件
+        with open(path, 'r') as csvfile:
+            reader = csv.reader(csvfile)
+            datas = []
+            for row in reader:
+                content = ''
+                counter += 1
+                if (source != 'twitterNews'):
+                    content = clearIn(row[2].strip())
+                else:
+                    content = row[1].strip() + ' ' + row[2].strip()
+                    replace = ' '
+                    urlRE = r'(http|ftp|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?'
+                    content = re.sub(urlRE, replace, str(content))
+                    content = clearIn(content)
+                dataPush = [content, fatherLabel]
+                # dataPush = [content, sonLabel]
+                datas.append(dataPush)
+            splitNum = int(counter/4)
+            trainingDatas += datas[:splitNum]
+            testDatas += datas[splitNum:]
+    return trainingDatas, testDatas
+
 # # 读取训练集
 # def readtrain(paths):
 #     trainingDatas = []
 #     testDatas = []
 
 #     for path in paths:
-#         fileName = path.split('/')[3]
-#         nameSplit = fileName.split('_')
-#         source = nameSplit[0]
-#         fatherLabel = nameSplit[1]
-#         sonLabel = '_'.join(nameSplit[2:-1])
 #         counter = 0
-
+#         fileName = path.split('/')[4]
+#         level = fileName.split('_')[0]
 #         # 打开文件
 #         with open(path, 'r') as csvfile:
 #             reader = csv.reader(csvfile)
 #             datas = []
 #             for row in reader:
-#                 content = ''
 #                 counter += 1
-#                 if (source != 'twitterNews'):
-#                     content = clearIn(row[2].strip())
-#                 else:
-#                     content = row[1].strip() + ' ' + row[2].strip()
-#                     replace = ' '
-#                     urlRE = r'(http|ftp|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?'
-#                     content = re.sub(urlRE, replace, str(content))
-#                     content = clearIn(content)
-#                 # dataPush = [content, sonLabel, fatherLabel]
-#                 dataPush = [content, sonLabel]
+#                 # content = row[5].strip() + ' ' + row[6].strip()
+#                 content = row[1].strip() + ' ' + row[2].strip()
+#                 replace = ' '
+#                 urlRE = r'(http|ftp|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?'
+#                 content = re.sub(urlRE, replace, str(content))
+#                 content = clearIn(content)
+#                 dataPush = [content, level]
+#                 print(level)
 #                 datas.append(dataPush)
 #             splitNum = int(counter/2)
-#             trainingDatas += datas[:splitNum]
-#             testDatas += datas[splitNum:]
+#             testDatas += datas[:splitNum]
+#             trainingDatas += datas[splitNum:]
 #     return trainingDatas, testDatas
-
-# 读取训练集
-def readtrain(paths):
-    trainingDatas = []
-    testDatas = []
-
-    for path in paths:
-        counter = 0
-        fileName = path.split('/')[4]
-        level = fileName.split('_')[0]
-        # 打开文件
-        with open(path, 'r') as csvfile:
-            reader = csv.reader(csvfile)
-            datas = []
-            for row in reader:
-                counter += 1
-                # content = row[5].strip() + ' ' + row[6].strip()
-                content = row[1].strip() + ' ' + row[2].strip()
-                replace = ' '
-                urlRE = r'(http|ftp|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?'
-                content = re.sub(urlRE, replace, str(content))
-                content = clearIn(content)
-                dataPush = [content, level]
-                print(level)
-                datas.append(dataPush)
-            splitNum = int(counter/2)
-            testDatas += datas[:splitNum]
-            trainingDatas += datas[splitNum:]
-    return trainingDatas, testDatas
 
 def splitOptionAndData(datas):
     data = []
@@ -105,8 +105,8 @@ def splitOptionAndData(datas):
     return data,label
 
 if __name__ == '__main__':
-    # path = '../data/news/'
-    path = '../data/training_data/training1/'
+    path = '../data/news/'
+    # path = '../data/training_data/training1/'
     allFile = os.listdir(path)
     filePaths = []
     for fileName in allFile:
@@ -124,7 +124,7 @@ if __name__ == '__main__':
     textClf = Pipeline([('vect', CountVectorizer()), ('tfidf', TfidfTransformer()), ('clf', SVC(C=1.0, kernel = 'linear'))])
     textClf = textClf.fit(trainContent, trainOpinion)
     # 保存模型
-    joblib.dump(textClf, '../model/level_train_model.m')
+    joblib.dump(textClf, '../model/ontology_train_model.m')
     predicted = textClf.predict(testContent)
     print ('SVC',np.mean(predicted == testOpinion))
     print (set(predicted))

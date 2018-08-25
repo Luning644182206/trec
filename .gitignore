@@ -5,3 +5,4 @@ __pycache__/*
 src/geckodriver.log
 src/data/.DS_Store
 src/class/__pycache__/*
+src/.DS_Store
