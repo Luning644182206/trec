@@ -55,9 +55,9 @@ api = tweepy.API(auth)
 #             print('not exit')
 
 
-newsNum = 1000
+newsNum = 2000
 # 按关键词抓取
-keyWords = 'typhoon weakened'
+keyWords = '#worldnews typhoon'
 try:
     # 搜索关键词相关的推文
     for tweet in tweepy.Cursor(api.search, tweet_mode='extended', q=keyWords, wait_on_rate_limit=True, wait_on_rate_limit_notify=True).items(newsNum):
@@ -79,7 +79,8 @@ try:
         # 存储
         keyWords = keyWords.split(' ')
         keyWords = '_'.join(keyWords)
-        filePath = '../data/original_news/twitterNews_Report-Weather_current_news.csv'
+        # filePath = '../data/original_news/twitterNews_Report-EmergingThreats_landslides_norepeat.csv'
+        filePath = '../data/original_news/twitterNews_Other-ContinuingNews_typhoon_norepeat.csv'
         file = open(filePath, 'a+')
         # 文件的头
         titleName = ['name', 'content', 'retweeted', 'created_at']

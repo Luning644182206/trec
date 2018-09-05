@@ -108,3 +108,924 @@ Other-Irrelevant                2    144    0.0136986301369863
 Other-Unknown                   0    24    0.0
 Other-KnownAlready              23    82    0.21904761904761905
 details
+Request-GoodsServices           0    0    0.0
+Request-SearchAndRescue         0    0    0.0
+Request-InformationWanted       0    10    0.0
+CallToAction-Volunteer          1    1    0.5
+CallToAction-FundRaising        0    0    0.0
+CallToAction-Donations          6    9    0.4
+CallToAction-MovePeople         3    22    0.12
+Report-FirstPartyObservation    2    26    0.07142857142857142
+Report-ThirdPartyObservation    3    11    0.21428571428571427
+Report-Weather                  14    27    0.34146341463414637
+Report-EmergingThreats          13    21    0.38235294117647056
+Report-SignificantEventChange    0    34    0.0
+Report-MultimediaShare          13    110    0.10569105691056911
+Report-ServiceAvailable         0    14    0.0
+Report-Factoid                  29    106    0.21481481481481482
+Report-Official                 26    23    0.5306122448979592
+Report-CleanUp                  0    2    0.0
+Report-Hashtags                 0    4    0.0
+Other-PastNews                  1    11    0.08333333333333333
+Other-ContinuingNews            25    214    0.10460251046025104
+Other-Advice                    2    36    0.05263157894736842
+Other-Sentiment                 44    78    0.36065573770491804
+Other-Discussion                10    34    0.22727272727272727
+Other-Irrelevant                2    144    0.0136986301369863
+Other-Unknown                   0    24    0.0
+Other-KnownAlready              15    90    0.14285714285714285
+details
+Request-GoodsServices           0    0    0.0
+Request-SearchAndRescue         0    0    0.0
+Request-InformationWanted       3    7    0.3
+CallToAction-Volunteer          1    1    0.5
+CallToAction-FundRaising        0    0    0.0
+CallToAction-Donations          6    9    0.4
+CallToAction-MovePeople         3    22    0.12
+Report-FirstPartyObservation    0    28    0.0
+Report-ThirdPartyObservation    3    11    0.21428571428571427
+Report-Weather                  12    29    0.2926829268292683
+Report-EmergingThreats          13    21    0.38235294117647056
+Report-SignificantEventChange    0    34    0.0
+Report-MultimediaShare          56    67    0.45528455284552843
+Report-ServiceAvailable         0    14    0.0
+Report-Factoid                  29    106    0.21481481481481482
+Report-Official                 24    25    0.4897959183673469
+Report-CleanUp                  0    2    0.0
+Report-Hashtags                 0    4    0.0
+Other-PastNews                  2    10    0.16666666666666666
+Other-ContinuingNews            20    219    0.08368200836820083
+Other-Advice                    1    37    0.02631578947368421
+Other-Sentiment                 39    83    0.319672131147541
+Other-Discussion                9    35    0.20454545454545456
+Other-Irrelevant                2    144    0.0136986301369863
+Other-Unknown                   0    24    0.0
+Other-KnownAlready              15    90    0.14285714285714285
+details
+Request-GoodsServices           0    0    0.0
+Request-SearchAndRescue         0    0    0.0
+Request-InformationWanted       3    7    0.3
+CallToAction-Volunteer          0    2    0.0
+CallToAction-FundRaising        0    0    0.0
+CallToAction-Donations          5    10    0.3333333333333333
+CallToAction-MovePeople         3    22    0.12
+Report-FirstPartyObservation    0    28    0.0
+Report-ThirdPartyObservation    2    12    0.14285714285714285
+Report-Weather                  10    31    0.24390243902439024
+Report-EmergingThreats          8    26    0.23529411764705882
+Report-SignificantEventChange    0    34    0.0
+Report-MultimediaShare          67    56    0.5447154471544715
+Report-ServiceAvailable         0    14    0.0
+Report-Factoid                  26    109    0.1925925925925926
+Report-Official                 20    29    0.40816326530612246
+Report-CleanUp                  0    2    0.0
+Report-Hashtags                 0    4    0.0
+Other-PastNews                  1    11    0.08333333333333333
+Other-ContinuingNews            13    226    0.05439330543933055
+Other-Advice                    10    28    0.2631578947368421
+Other-Sentiment                 39    83    0.319672131147541
+Other-Discussion                5    39    0.11363636363636363
+Other-Irrelevant                2    144    0.0136986301369863
+Other-Unknown                   0    24    0.0
+Other-KnownAlready              6    99    0.05714285714285714
+details
+Request-GoodsServices           0    0    0.0
+Request-SearchAndRescue         0    0    0.0
+Request-InformationWanted       3    7    0.3
+CallToAction-Volunteer          0    2    0.0
+CallToAction-FundRaising        0    0    0.0
+CallToAction-Donations          5    10    0.3333333333333333
+CallToAction-MovePeople         3    22    0.12
+Report-FirstPartyObservation    0    28    0.0
+Report-ThirdPartyObservation    2    12    0.14285714285714285
+Report-Weather                  10    31    0.24390243902439024
+Report-EmergingThreats          8    26    0.23529411764705882
+Report-SignificantEventChange    0    34    0.0
+Report-MultimediaShare          66    57    0.5365853658536586
+Report-ServiceAvailable         0    14    0.0
+Report-Factoid                  33    102    0.24444444444444444
+Report-Official                 20    29    0.40816326530612246
+Report-CleanUp                  0    2    0.0
+Report-Hashtags                 0    4    0.0
+Other-PastNews                  1    11    0.08333333333333333
+Other-ContinuingNews            13    226    0.05439330543933055
+Other-Advice                    10    28    0.2631578947368421
+Other-Sentiment                 39    83    0.319672131147541
+Other-Discussion                5    39    0.11363636363636363
+Other-Irrelevant                2    144    0.0136986301369863
+Other-Unknown                   0    24    0.0
+Other-KnownAlready              6    99    0.05714285714285714
+details
+Request-GoodsServices           0    0    0.0
+Request-SearchAndRescue         0    0    0.0
+Request-InformationWanted       3    7    0.3
+CallToAction-Volunteer          0    2    0.0
+CallToAction-FundRaising        0    0    0.0
+CallToAction-Donations          5    10    0.3333333333333333
+CallToAction-MovePeople         3    22    0.12
+Report-FirstPartyObservation    0    28    0.0
+Report-ThirdPartyObservation    2    12    0.14285714285714285
+Report-Weather                  10    31    0.24390243902439024
+Report-EmergingThreats          8    26    0.23529411764705882
+Report-SignificantEventChange    0    34    0.0
+Report-MultimediaShare          66    57    0.5365853658536586
+Report-ServiceAvailable         0    14    0.0
+Report-Factoid                  34    101    0.2518518518518518
+Report-Official                 20    29    0.40816326530612246
+Report-CleanUp                  0    2    0.0
+Report-Hashtags                 0    4    0.0
+Other-PastNews                  1    11    0.08333333333333333
+Other-ContinuingNews            13    226    0.05439330543933055
+Other-Advice                    10    28    0.2631578947368421
+Other-Sentiment                 39    83    0.319672131147541
+Other-Discussion                5    39    0.11363636363636363
+Other-Irrelevant                2    144    0.0136986301369863
+Other-Unknown                   0    24    0.0
+Other-KnownAlready              6    99    0.05714285714285714
+details(上面这组18.01%)
+Request-GoodsServices           0    0    0.0
+Request-SearchAndRescue         0    0    0.0
+Request-InformationWanted       3    7    0.3
+CallToAction-Volunteer          0    2    0.0
+CallToAction-FundRaising        0    0    0.0
+CallToAction-Donations          5    10    0.3333333333333333
+CallToAction-MovePeople         3    22    0.12
+Report-FirstPartyObservation    0    28    0.0
+Report-ThirdPartyObservation    2    12    0.14285714285714285
+Report-Weather                  10    31    0.24390243902439024
+Report-EmergingThreats          8    26    0.23529411764705882
+Report-SignificantEventChange    0    34    0.0
+Report-MultimediaShare          67    56    0.5447154471544715
+Report-ServiceAvailable         0    14    0.0
+Report-Factoid                  33    102    0.24444444444444444
+Report-Official                 20    29    0.40816326530612246
+Report-CleanUp                  0    2    0.0
+Report-Hashtags                 0    4    0.0
+Other-PastNews                  1    11    0.08333333333333333
+Other-ContinuingNews            12    227    0.0502092050209205
+Other-Advice                    10    28    0.2631578947368421
+Other-Sentiment                 39    83    0.319672131147541
+Other-Discussion                5    39    0.11363636363636363
+Other-Irrelevant                2    144    0.0136986301369863
+Other-Unknown                   0    24    0.0
+Other-KnownAlready              6    99    0.05714285714285714
+details(上面这组17.93%)
+Request-GoodsServices           0    0    0.0
+Request-SearchAndRescue         0    0    0.0
+Request-InformationWanted       3    7    0.3
+CallToAction-Volunteer          0    2    0.0
+CallToAction-FundRaising        0    0    0.0
+CallToAction-Donations          5    10    0.3333333333333333
+CallToAction-MovePeople         3    22    0.12
+Report-FirstPartyObservation    0    28    0.0
+Report-ThirdPartyObservation    0    14    0.0
+Report-Weather                  10    31    0.24390243902439024
+Report-EmergingThreats          16    18    0.47058823529411764
+Report-SignificantEventChange    0    34    0.0
+Report-MultimediaShare          52    71    0.42276422764227645
+Report-ServiceAvailable         0    14    0.0
+Report-Factoid                  29    106    0.21481481481481482
+Report-Official                 19    30    0.3877551020408163
+Report-CleanUp                  0    2    0.0
+Report-Hashtags                 0    4    0.0
+Other-PastNews                  1    11    0.08333333333333333
+Other-ContinuingNews            14    225    0.058577405857740586
+Other-Advice                    10    28    0.2631578947368421
+Other-Sentiment                 39    83    0.319672131147541
+Other-Discussion                5    39    0.11363636363636363
+Other-Irrelevant                2    144    0.0136986301369863
+Other-Unknown                   0    24    0.0
+Other-KnownAlready              6    99    0.05714285714285714
+details(16.8%)
+Request-GoodsServices           0    0    0.0
+Request-SearchAndRescue         0    0    0.0
+Request-InformationWanted       3    7    0.3
+CallToAction-Volunteer          0    2    0.0
+CallToAction-FundRaising        0    0    0.0
+CallToAction-Donations          5    10    0.3333333333333333
+CallToAction-MovePeople         3    22    0.12
+Report-FirstPartyObservation    0    28    0.0
+Report-ThirdPartyObservation    0    14    0.0
+Report-Weather                  10    31    0.24390243902439024
+Report-EmergingThreats          15    19    0.4411764705882353
+Report-SignificantEventChange    0    34    0.0
+Report-MultimediaShare          53    70    0.43089430894308944
+Report-ServiceAvailable         0    14    0.0
+Report-Factoid                  28    107    0.2074074074074074
+Report-Official                 19    30    0.3877551020408163
+Report-CleanUp                  0    2    0.0
+Report-Hashtags                 0    4    0.0
+Other-PastNews                  1    11    0.08333333333333333
+Other-ContinuingNews            24    215    0.100418410041841
+Other-Advice                    10    28    0.2631578947368421
+Other-Sentiment                 39    83    0.319672131147541
+Other-Discussion                5    39    0.11363636363636363
+Other-Irrelevant                2    144    0.0136986301369863
+Other-Unknown                   0    24    0.0
+Other-KnownAlready              6    99    0.05714285714285714
+details(17.69%)
+Request-GoodsServices    0    11    0    223
+Request-SearchAndRescue    0    3    0    223
+Request-InformationWanted    3    43    7    220
+CallToAction-Volunteer    0    0    2    223
+CallToAction-FundRaising    0    0    0    223
+CallToAction-Donations    5    1    10    218
+CallToAction-MovePeople    3    3    22    220
+Report-FirstPartyObservation    0    20    28    223
+Report-ThirdPartyObservation    0    65    14    223
+Report-Weather    10    10    31    213
+Report-EmergingThreats    15    247    19    208
+Report-SignificantEventChange    0    10    34    223
+Report-MultimediaShare    53    284    70    170
+Report-ServiceAvailable    0    0    14    223
+Report-Factoid    28    35    107    195
+Report-Official    19    39    30    204
+Report-CleanUp    0    14    2    223
+Report-Hashtags    0    0    4    223
+Other-PastNews    1    9    11    222
+Other-ContinuingNews    24    43    215    199
+Other-Advice    10    112    28    213
+Other-Sentiment    39    25    83    184
+Other-Discussion    5    51    39    218
+Other-Irrelevant    2    5    144    221
+Other-Unknown    0    3    24    223
+Other-KnownAlready    6    4    99    217
+details(17.69  6.3)
+Request-GoodsServices    0    10    0    214
+Request-SearchAndRescue    0    3    0    214
+Request-InformationWanted    3    44    7    211
+CallToAction-Volunteer    0    0    2    214
+CallToAction-FundRaising    0    0    0    214
+CallToAction-Donations    5    1    10    209
+CallToAction-MovePeople    3    3    22    211
+Report-FirstPartyObservation    0    20    28    214
+Report-ThirdPartyObservation    0    64    14    214
+Report-Weather    10    10    31    204
+Report-EmergingThreats    16    262    18    198
+Report-SignificantEventChange    0    10    34    214
+Report-MultimediaShare    52    292    71    162
+Report-ServiceAvailable    0    0    14    214
+Report-Factoid    29    35    106    185
+Report-Official    19    39    30    195
+Report-CleanUp    0    18    2    214
+Report-Hashtags    0    0    4    214
+Other-PastNews    1    8    11    213
+Other-ContinuingNews    14    28    225    200
+Other-Advice    10    111    28    204
+Other-Sentiment    39    25    83    175
+Other-Discussion    5    51    39    209
+Other-Irrelevant    2    5    144    212
+Other-Unknown    0    3    24    214
+Other-KnownAlready    6    4    99    208
+details
+Request-GoodsServices    0    11    0    195
+Request-SearchAndRescue    0    3    0    195
+Request-InformationWanted    3    35    7    192
+CallToAction-Volunteer    0    0    1    195
+CallToAction-FundRaising    0    0    0    195
+CallToAction-Donations    5    1    6    190
+CallToAction-MovePeople    3    3    13    192
+Report-FirstPartyObservation    0    13    21    195
+Report-ThirdPartyObservation    0    57    9    195
+Report-Weather    9    10    28    186
+Report-EmergingThreats    11    100    16    184
+Report-SignificantEventChange    0    10    25    195
+Report-MultimediaShare    43    241    56    152
+Report-ServiceAvailable    0    0    10    195
+Report-Factoid    27    32    90    168
+Report-Official    8    27    18    187
+Report-CleanUp    0    14    1    195
+Report-Hashtags    0    0    4    195
+Other-PastNews    1    8    9    194
+Other-ContinuingNews    24    43    171    171
+Other-Advice    9    88    20    186
+Other-Sentiment    39    25    56    156
+Other-Discussion    5    50    24    190
+Other-Irrelevant    2    5    103    193
+Other-Unknown    0    3    20    195
+Other-KnownAlready    6    4    75    189
+details
+Request-GoodsServices    0    0    0    0
+Request-SearchAndRescue    0    0    0    0
+Request-InformationWanted    0    0    0    0
+CallToAction-Volunteer    0    0    0    0
+CallToAction-FundRaising    0    0    0    0
+CallToAction-Donations    0    0    0    0
+CallToAction-MovePeople    0    0    0    0
+Report-FirstPartyObservation    0    0    0    0
+Report-ThirdPartyObservation    0    0    0    0
+Report-Weather    0    0    0    0
+Report-EmergingThreats    0    0    0    0
+Report-SignificantEventChange    0    0    0    0
+Report-MultimediaShare    0    0    0    0
+Report-ServiceAvailable    0    0    0    0
+Report-Factoid    0    0    0    0
+Report-Official    0    0    0    0
+Report-CleanUp    0    0    0    0
+Report-Hashtags    0    0    0    0
+Other-PastNews    0    0    0    0
+Other-ContinuingNews    0    0    0    0
+Other-Advice    0    0    0    0
+Other-Sentiment    0    0    0    0
+Other-Discussion    0    0    0    0
+Other-Irrelevant    0    0    0    0
+Other-Unknown    0    0    0    0
+Other-KnownAlready    0    0    0    0
+details
+Request-GoodsServices    0    0    0    0
+Request-SearchAndRescue    0    0    0    0
+Request-InformationWanted    0    0    0    0
+CallToAction-Volunteer    0    0    0    0
+CallToAction-FundRaising    0    0    0    0
+CallToAction-Donations    0    0    0    0
+CallToAction-MovePeople    0    0    0    0
+Report-FirstPartyObservation    0    0    0    0
+Report-ThirdPartyObservation    0    0    0    0
+Report-Weather    0    0    0    0
+Report-EmergingThreats    0    0    0    0
+Report-SignificantEventChange    0    0    0    0
+Report-MultimediaShare    0    0    0    0
+Report-ServiceAvailable    0    0    0    0
+Report-Factoid    0    0    0    0
+Report-Official    0    0    0    0
+Report-CleanUp    0    0    0    0
+Report-Hashtags    0    0    0    0
+Other-PastNews    0    0    0    0
+Other-ContinuingNews    0    0    0    0
+Other-Advice    0    0    0    0
+Other-Sentiment    0    0    0    0
+Other-Discussion    0    0    0    0
+Other-Irrelevant    0    0    0    0
+Other-Unknown    0    0    0    0
+Other-KnownAlready    0    0    0    0
+details
+Request-GoodsServices    0    0    0    0
+Request-SearchAndRescue    0    0    0    0
+Request-InformationWanted    0    0    0    0
+CallToAction-Volunteer    0    0    0    0
+CallToAction-FundRaising    0    0    0    0
+CallToAction-Donations    0    0    0    0
+CallToAction-MovePeople    0    0    0    0
+Report-FirstPartyObservation    0    0    0    0
+Report-ThirdPartyObservation    0    0    0    0
+Report-Weather    0    0    0    0
+Report-EmergingThreats    0    0    0    0
+Report-SignificantEventChange    0    0    0    0
+Report-MultimediaShare    0    0    0    0
+Report-ServiceAvailable    0    0    0    0
+Report-Factoid    0    0    0    0
+Report-Official    0    0    0    0
+Report-CleanUp    0    0    0    0
+Report-Hashtags    0    0    0    0
+Other-PastNews    0    0    0    0
+Other-ContinuingNews    0    0    0    0
+Other-Advice    0    0    0    0
+Other-Sentiment    0    0    0    0
+Other-Discussion    0    0    0    0
+Other-Irrelevant    0    0    0    0
+Other-Unknown    0    0    0    0
+Other-KnownAlready    0    0    0    0
+details
+Request-GoodsServices    0    9    0    175
+Request-SearchAndRescue    0    3    0    175
+Request-InformationWanted    3    23    6    172
+CallToAction-Volunteer    0    0    0    175
+CallToAction-FundRaising    0    0    0    175
+CallToAction-Donations    5    1    5    170
+CallToAction-MovePeople    3    3    7    172
+Report-FirstPartyObservation    0    5    15    175
+Report-ThirdPartyObservation    0    13    5    175
+Report-Weather    7    4    24    168
+Report-EmergingThreats    10    33    11    165
+Report-SignificantEventChange    0    10    15    175
+Report-MultimediaShare    36    158    27    139
+Report-ServiceAvailable    0    0    5    175
+Report-Factoid    24    25    59    151
+Report-Official    6    16    13    169
+Report-CleanUp    0    13    1    175
+Report-Hashtags    0    0    3    175
+Other-PastNews    1    4    7    174
+Other-ContinuingNews    21    35    103    154
+Other-Advice    8    48    14    167
+Other-Sentiment    38    22    31    137
+Other-Discussion    5    47    12    170
+Other-Irrelevant    2    4    56    173
+Other-Unknown    0    3    13    175
+Other-KnownAlready    6    3    50    169
+details
+Request-GoodsServices    0    8    0    155
+Request-SearchAndRescue    0    3    0    155
+Request-InformationWanted    3    21    5    152
+CallToAction-Volunteer    0    0    0    155
+CallToAction-FundRaising    0    0    0    155
+CallToAction-Donations    5    1    5    150
+CallToAction-MovePeople    3    3    7    152
+Report-FirstPartyObservation    0    3    12    155
+Report-ThirdPartyObservation    0    3    5    155
+Report-Weather    4    3    20    151
+Report-EmergingThreats    9    24    11    146
+Report-SignificantEventChange    0    8    13    155
+Report-MultimediaShare    34    137    20    121
+Report-ServiceAvailable    0    0    4    155
+Report-Factoid    19    20    46    136
+Report-Official    6    11    9    149
+Report-CleanUp    0    8    1    155
+Report-Hashtags    0    0    3    155
+Other-PastNews    1    3    6    154
+Other-ContinuingNews    20    32    81    135
+Other-Advice    6    27    9    149
+Other-Sentiment    35    20    21    120
+Other-Discussion    4    44    11    151
+Other-Irrelevant    2    4    46    153
+Other-Unknown    0    1    12    155
+Other-KnownAlready    4    2    39    151
+details
+Request-GoodsServices    0    2    0    93
+Request-SearchAndRescue    0    3    0    93
+Request-InformationWanted    3    11    4    90
+CallToAction-Volunteer    0    0    0    93
+CallToAction-FundRaising    0    0    0    93
+CallToAction-Donations    2    1    0    91
+CallToAction-MovePeople    3    3    1    90
+Report-FirstPartyObservation    0    0    3    93
+Report-ThirdPartyObservation    0    0    0    93
+Report-Weather    3    3    9    90
+Report-EmergingThreats    4    4    6    89
+Report-SignificantEventChange    0    2    4    93
+Report-MultimediaShare    20    50    9    73
+Report-ServiceAvailable    0    0    1    93
+Report-Factoid    12    6    24    81
+Report-Official    3    6    2    90
+Report-CleanUp    0    0    1    93
+Report-Hashtags    0    0    2    93
+Other-PastNews    0    1    4    93
+Other-ContinuingNews    8    11    36    85
+Other-Advice    4    11    1    89
+Other-Sentiment    27    7    9    66
+Other-Discussion    3    22    3    90
+Other-Irrelevant    1    1    15    92
+Other-Unknown    0    1    3    93
+Other-KnownAlready    0    0    8    93
+details
+Request-GoodsServices    0    2    0    93
+Request-SearchAndRescue    0    3    0    93
+Request-InformationWanted    3    11    4    90
+CallToAction-Volunteer    0    0    0    93
+CallToAction-FundRaising    0    0    0    93
+CallToAction-Donations    2    1    0    91
+CallToAction-MovePeople    3    3    1    90
+Report-FirstPartyObservation    0    0    3    93
+Report-ThirdPartyObservation    0    0    0    93
+Report-Weather    3    3    9    90
+Report-EmergingThreats    4    4    6    89
+Report-SignificantEventChange    0    2    4    93
+Report-MultimediaShare    20    50    9    73
+Report-ServiceAvailable    0    0    1    93
+Report-Factoid    12    6    24    81
+Report-Official    3    6    2    90
+Report-CleanUp    0    0    1    93
+Report-Hashtags    0    0    2    93
+Other-PastNews    0    1    4    93
+Other-ContinuingNews    8    11    36    85
+Other-Advice    4    11    1    89
+Other-Sentiment    27    7    9    66
+Other-Discussion    3    22    3    90
+Other-Irrelevant    1    1    15    92
+Other-Unknown    0    1    3    93
+Other-KnownAlready    0    0    8    93
+details
+Request-GoodsServices    0    0    0    52
+Request-SearchAndRescue    0    2    0    52
+Request-InformationWanted    2    7    4    50
+CallToAction-Volunteer    0    0    0    52
+CallToAction-FundRaising    0    0    0    52
+CallToAction-Donations    2    0    0    50
+CallToAction-MovePeople    2    2    0    50
+Report-FirstPartyObservation    0    0    2    52
+Report-ThirdPartyObservation    0    0    0    52
+Report-Weather    3    3    2    49
+Report-EmergingThreats    1    3    1    51
+Report-SignificantEventChange    0    0    1    52
+Report-MultimediaShare    13    8    5    39
+Report-ServiceAvailable    0    0    0    52
+Report-Factoid    4    4    5    48
+Report-Official    0    3    0    52
+Report-CleanUp    0    0    0    52
+Report-Hashtags    0    0    1    52
+Other-PastNews    0    1    3    52
+Other-ContinuingNews    2    3    13    50
+Other-Advice    2    4    0    50
+Other-Sentiment    19    4    3    33
+Other-Discussion    1    10    0    51
+Other-Irrelevant    1    0    10    51
+Other-Unknown    0    1    3    52
+Other-KnownAlready    0    0    2    52
+details
+Request-GoodsServices    0    27    0    908
+Request-SearchAndRescue    0    6    0    908
+Request-InformationWanted    0    14    0    908
+CallToAction-Volunteer    0    0    0    908
+CallToAction-FundRaising    0    0    0    908
+CallToAction-Donations    908    0    134    0
+CallToAction-MovePeople    0    1    0    908
+Report-FirstPartyObservation    0    3    0    908
+Report-ThirdPartyObservation    0    0    0    908
+Report-Weather    0    2    0    908
+Report-EmergingThreats    0    46    0    908
+Report-SignificantEventChange    0    1    0    908
+Report-MultimediaShare    0    22    0    908
+Report-ServiceAvailable    0    1    0    908
+Report-Factoid    0    0    0    908
+Report-Official    0    2    0    908
+Report-CleanUp    0    1    0    908
+Report-Hashtags    0    0    0    908
+Other-PastNews    0    5    0    908
+Other-ContinuingNews    0    0    0    908
+Other-Advice    0    3    0    908
+Other-Sentiment    0    0    0    908
+Other-Discussion    0    0    0    908
+Other-Irrelevant    0    0    0    908
+Other-Unknown    0    0    0    908
+Other-KnownAlready    0    0    0    908
+details
+Request-GoodsServices    0    14    0    474
+Request-SearchAndRescue    0    5    0    474
+Request-InformationWanted    0    0    0    474
+CallToAction-Volunteer    0    0    0    474
+CallToAction-FundRaising    0    0    0    474
+CallToAction-Donations    474    0    47    0
+CallToAction-MovePeople    0    1    0    474
+Report-FirstPartyObservation    0    0    0    474
+Report-ThirdPartyObservation    0    0    0    474
+Report-Weather    0    0    0    474
+Report-EmergingThreats    0    19    0    474
+Report-SignificantEventChange    0    1    0    474
+Report-MultimediaShare    0    5    0    474
+Report-ServiceAvailable    0    0    0    474
+Report-Factoid    0    0    0    474
+Report-Official    0    0    0    474
+Report-CleanUp    0    0    0    474
+Report-Hashtags    0    0    0    474
+Other-PastNews    0    1    0    474
+Other-ContinuingNews    0    0    0    474
+Other-Advice    0    1    0    474
+Other-Sentiment    0    0    0    474
+Other-Discussion    0    0    0    474
+Other-Irrelevant    0    0    0    474
+Other-Unknown    0    0    0    474
+Other-KnownAlready    0    0    0    474
+details
+Request-GoodsServices    1414    72    35    18012
+Request-SearchAndRescue    305    42    50    19121
+Request-InformationWanted    1102    110    110    18324
+CallToAction-Volunteer    63    0    6    19363
+CallToAction-FundRaising    0    0    0    19426
+CallToAction-Donations    1074    48    70    18352
+CallToAction-MovePeople    137    16    23    19289
+Report-FirstPartyObservation    401    294    648    19025
+Report-ThirdPartyObservation    724    670    329    18702
+Report-Weather    999    42    308    18427
+Report-EmergingThreats    2378    673    165    17048
+Report-SignificantEventChange    754    30    84    18672
+Report-MultimediaShare    1866    458    224    17560
+Report-ServiceAvailable    249    19    19    19177
+Report-Factoid    1068    56    135    18358
+Report-Official    1048    57    66    18378
+Report-CleanUp    478    103    168    18948
+Report-Hashtags    0    0    0    19426
+Other-PastNews    550    40    38    18876
+Other-ContinuingNews    720    157    132    18706
+Other-Advice    1371    192    447    18055
+Other-Sentiment    840    65    54    18586
+Other-Discussion    560    77    51    18866
+Other-Irrelevant    318    5    17    19108
+Other-Unknown    859    16    38    18567
+Other-KnownAlready    148    2    27    19278
+details
+Request-GoodsServices    1372    183    79    13789
+Request-SearchAndRescue    292    64    64    14869
+Request-InformationWanted    938    395    277    14223
+CallToAction-Volunteer    59    3    12    15102
+CallToAction-FundRaising    0    0    0    15161
+CallToAction-Donations    751    77    395    14410
+CallToAction-MovePeople    78    18    82    15083
+Report-FirstPartyObservation    349    423    703    14812
+Report-ThirdPartyObservation    504    663    552    14657
+Report-Weather    409    161    898    14752
+Report-EmergingThreats    2123    1826    425    13038
+Report-SignificantEventChange    697    99    145    14464
+Report-MultimediaShare    1667    1291    424    13494
+Report-ServiceAvailable    213    12    56    14948
+Report-Factoid    848    167    359    14313
+Report-Official    945    249    173    14216
+Report-CleanUp    338    154    309    14823
+Report-Hashtags    0    0    0    15161
+Other-PastNews    453    91    137    14708
+Other-ContinuingNews    415    396    438    14746
+Other-Advice    707    612    1116    14454
+Other-Sentiment    655    307    240    14506
+Other-Discussion    421    294    192    14740
+Other-Irrelevant    0    31    336    15161
+Other-Unknown    799    40    100    14362
+Other-KnownAlready    128    4    48    15033
+details
+Request-GoodsServices    0    11    0    223
+Request-SearchAndRescue    0    3    0    223
+Request-InformationWanted    3    43    7    220
+Request-GoodsServices    0    11    0    223
+Request-SearchAndRescue    0    3    0    223
+Request-InformationWanted    3    43    7    220
+CallToAction-Volunteer    0    0    2    223
+CallToAction-FundRaising    0    0    0    223
+CallToAction-Donations    5    1    10    218
+CallToAction-MovePeople    3    3    22    220
+Report-FirstPartyObservation    0    20    28    223
+Report-ThirdPartyObservation    0    65    14    223
+Report-Weather    10    10    31    213
+Report-EmergingThreats    15    247    19    208
+Report-SignificantEventChange    0    10    34    223
+Report-MultimediaShare    53    284    70    170
+Report-ServiceAvailable    0    0    14    223
+Report-Factoid    28    35    107    195
+Report-Official    19    39    30    204
+Report-CleanUp    0    14    2    223
+Report-Hashtags    0    0    4    223
+Other-PastNews    1    9    11    222
+Other-ContinuingNews    24    43    215    199
+Other-Advice    10    112    28    213
+Other-Sentiment    39    25    83    184
+Other-Discussion    5    51    39    218
+Other-Irrelevant    2    5    144    221
+Other-Unknown    0    3    24    223
+Other-KnownAlready    6    4    99    217
+details
+Request-GoodsServices    0    11    0    223
+Request-SearchAndRescue    0    3    0    223
+Request-InformationWanted    3    43    7    220
+CallToAction-Volunteer    0    0    2    223
+CallToAction-FundRaising    0    0    0    223
+CallToAction-Donations    5    1    10    218
+CallToAction-MovePeople    3    3    22    220
+Report-FirstPartyObservation    0    20    28    223
+Report-ThirdPartyObservation    0    65    14    223
+Report-Weather    10    10    31    213
+Report-EmergingThreats    15    247    19    208
+Report-SignificantEventChange    0    10    34    223
+Report-MultimediaShare    53    284    70    170
+Report-ServiceAvailable    0    0    14    223
+Report-Factoid    28    35    107    195
+Report-Official    19    39    30    204
+Report-CleanUp    0    14    2    223
+Report-Hashtags    0    0    4    223
+Other-PastNews    1    9    11    222
+Other-ContinuingNews    24    43    215    199
+Other-Advice    10    112    28    213
+Other-Sentiment    39    25    83    184
+Other-Discussion    5    51    39    218
+Other-Irrelevant    2    5    144    221
+Other-Unknown    0    3    24    223
+Other-KnownAlready    6    4    99    217
+details
+Request-GoodsServices    0    11    0    223
+Request-SearchAndRescue    0    3    0    223
+Request-InformationWanted    3    43    7    220
+CallToAction-Volunteer    0    0    2    223
+CallToAction-FundRaising    0    0    0    223
+CallToAction-Donations    5    1    10    218
+CallToAction-MovePeople    3    3    22    220
+Report-FirstPartyObservation    0    20    28    223
+Report-ThirdPartyObservation    0    65    14    223
+Report-Weather    10    10    31    213
+Report-EmergingThreats    15    247    19    208
+Report-SignificantEventChange    0    10    34    223
+Report-MultimediaShare    53    284    70    170
+Report-ServiceAvailable    0    0    14    223
+Report-Factoid    28    35    107    195
+Report-Official    19    39    30    204
+Report-CleanUp    0    14    2    223
+Report-Hashtags    0    0    4    223
+Other-PastNews    1    9    11    222
+Other-ContinuingNews    24    43    215    199
+Other-Advice    10    112    28    213
+Other-Sentiment    39    25    83    184
+Other-Discussion    5    51    39    218
+Other-Irrelevant    2    5    144    221
+Other-Unknown    0    3    24    223
+Other-KnownAlready    6    4    99    217
+details
+Request-GoodsServices           0    11    0    223
+Request-SearchAndRescue         0    3    0    223
+Request-InformationWanted       3    43    7    220
+CallToAction-Volunteer          0    0    2    223
+CallToAction-FundRaising        0    0    0    223
+CallToAction-Donations          5    1    10    218
+CallToAction-MovePeople         3    3    22    220
+Report-FirstPartyObservation    0    20    28    223
+Report-ThirdPartyObservation    0    65    14    223
+Report-Weather                  10    10    31    213
+Report-EmergingThreats          15    247    19    208
+Report-SignificantEventChange    0    10    34    223
+Report-MultimediaShare          53    284    70    170
+Report-ServiceAvailable         0    0    14    223
+Report-Factoid                  28    35    107    195
+Report-Official                 19    39    30    204
+Report-CleanUp                  0    14    2    223
+Report-Hashtags                 0    0    4    223
+Other-PastNews                  1    9    11    222
+Other-ContinuingNews            24    43    215    199
+Other-Advice                    10    112    28    213
+Other-Sentiment                 39    25    83    184
+Other-Discussion                5    51    39    218
+Other-Irrelevant                2    5    144    221
+Other-Unknown                   0    3    24    223
+Other-KnownAlready              6    4    99    217
+details 
+Request-GoodsServices    1372    183    79    13789
+Request-SearchAndRescue    292    64    64    14869
+Request-InformationWanted    938    395    277    14223
+CallToAction-Volunteer    59    3    12    15102
+CallToAction-FundRaising    0    0    0    15161
+CallToAction-Donations    751    77    395    14410
+CallToAction-MovePeople    78    18    82    15083
+Report-FirstPartyObservation    349    423    703    14812
+Report-ThirdPartyObservation    504    663    552    14657
+Report-Weather    409    161    898    14752
+Report-EmergingThreats    2123    1826    425    13038
+Report-SignificantEventChange    697    99    145    14464
+Report-MultimediaShare    1667    1291    424    13494
+Report-ServiceAvailable    213    12    56    14948
+Report-Factoid    848    167    359    14313
+Report-Official    945    249    173    14216
+Report-CleanUp    338    154    309    14823
+Report-Hashtags    0    0    0    15161
+Other-PastNews    453    91    137    14708
+Other-ContinuingNews    415    396    438    14746
+Other-Advice    707    612    1116    14454
+Other-Sentiment    655    307    240    14506
+Other-Discussion    421    294    192    14740
+Other-Irrelevant    0    31    336    15161
+Other-Unknown    799    40    100    14362
+Other-KnownAlready    128    4    48    15033
+details
+Request-GoodsServices    0    11    0    223    0.0    0.0
+Request-SearchAndRescue    0    3    0    223    0.0    0.0
+Request-InformationWanted    3    43    7    220    0.06521739130434782    0.06
+CallToAction-Volunteer    0    0    2    223    0    0.0
+CallToAction-FundRaising    0    0    0    223    0    0
+CallToAction-Donations    5    1    10    218    0.8333333333333334    0.45454545454545453
+CallToAction-MovePeople    3    3    22    220    0.5    0.12
+Report-FirstPartyObservation    0    20    28    223    0.0    0.0
+Report-ThirdPartyObservation    0    65    14    223    0.0    0.0
+Report-Weather    10    10    31    213    0.5    0.24390243902439024
+Report-EmergingThreats    15    247    19    208    0.05725190839694656    0.05639097744360902
+Report-SignificantEventChange    0    10    34    223    0.0    0.0
+Report-MultimediaShare    53    284    70    170    0.1572700296735905    0.1497175141242938
+Report-ServiceAvailable    0    0    14    223    0    0.0
+Report-Factoid    28    35    107    195    0.4444444444444444    0.19718309859154928
+Report-Official    19    39    30    204    0.3275862068965517    0.2753623188405797
+Report-CleanUp    0    14    2    223    0.0    0.0
+Report-Hashtags    0    0    4    223    0    0.0
+Other-PastNews    1    9    11    222    0.1    0.05
+Other-ContinuingNews    24    43    215    199    0.3582089552238806    0.09302325581395349
+Other-Advice    10    112    28    213    0.08196721311475409    0.07142857142857142
+Other-Sentiment    39    25    83    184    0.609375    0.3611111111111111
+Other-Discussion    5    51    39    218    0.08928571428571429    0.05555555555555555
+Other-Irrelevant    2    5    144    221    0.2857142857142857    0.013422818791946308
+Other-Unknown    0    3    24    223    0.0    0.0
+Other-KnownAlready    6    4    99    217    0.6    0.05825242718446602
+details
+Request-GoodsServices    0    11    0    223    0.0    0.0
+Request-SearchAndRescue    0    3    0    223    0.0    0.0
+Request-InformationWanted    3    43    7    220    0.06521739130434782    0.06
+CallToAction-Volunteer    0    0    2    223    0    0.0
+CallToAction-FundRaising    0    0    0    223    0    0
+CallToAction-Donations    5    1    10    218    0.8333333333333334    0.45454545454545453
+CallToAction-MovePeople    3    3    22    220    0.5    0.12
+Report-FirstPartyObservation    0    20    28    223    0.0    0.0
+Report-ThirdPartyObservation    0    65    14    223    0.0    0.0
+Report-Weather    10    10    31    213    0.5    0.24390243902439024
+Report-EmergingThreats    15    247    19    208    0.05725190839694656    0.05639097744360902
+Report-SignificantEventChange    0    10    34    223    0.0    0.0
+Report-MultimediaShare    53    284    70    170    0.1572700296735905    0.1497175141242938
+Report-ServiceAvailable    0    0    14    223    0    0.0
+Report-Factoid    28    35    107    195    0.4444444444444444    0.19718309859154928
+Report-Official    19    39    30    204    0.3275862068965517    0.2753623188405797
+Report-CleanUp    0    14    2    223    0.0    0.0
+Report-Hashtags    0    0    4    223    0    0.0
+Other-PastNews    1    9    11    222    0.1    0.05
+Other-ContinuingNews    24    43    215    199    0.3582089552238806    0.09302325581395349
+Other-Advice    10    112    28    213    0.08196721311475409    0.07142857142857142
+Other-Sentiment    39    25    83    184    0.609375    0.3611111111111111
+Other-Discussion    5    51    39    218    0.08928571428571429    0.05555555555555555
+Other-Irrelevant    2    5    144    221    0.2857142857142857    0.013422818791946308
+Other-Unknown    0    3    24    223    0.0    0.0
+Other-KnownAlready    6    4    99    217    0.6    0.05825242718446602
+details
+Request-GoodsServices    0    11    0    223    0.0    0.0
+Request-SearchAndRescue    0    3    0    223    0.0    0.0
+Request-InformationWanted    3    43    7    220    0.06521739130434782    0.06
+CallToAction-Volunteer    0    0    2    223    0    0.0
+CallToAction-FundRaising    0    0    0    223    0    0
+CallToAction-Donations    5    1    10    218    0.8333333333333334    0.45454545454545453
+CallToAction-MovePeople    3    3    22    220    0.5    0.12
+Report-FirstPartyObservation    0    20    28    223    0.0    0.0
+Report-ThirdPartyObservation    0    65    14    223    0.0    0.0
+Report-Weather    10    10    31    213    0.5    0.24390243902439024
+Report-EmergingThreats    15    247    19    208    0.05725190839694656    0.05639097744360902
+Report-SignificantEventChange    0    10    34    223    0.0    0.0
+Report-MultimediaShare    53    284    70    170    0.1572700296735905    0.1497175141242938
+Report-ServiceAvailable    0    0    14    223    0    0.0
+Report-Factoid    28    35    107    195    0.4444444444444444    0.19718309859154928
+Report-Official    19    39    30    204    0.3275862068965517    0.2753623188405797
+Report-CleanUp    0    14    2    223    0.0    0.0
+Report-Hashtags    0    0    4    223    0    0.0
+Other-PastNews    1    9    11    222    0.1    0.05
+Other-ContinuingNews    24    43    215    199    0.3582089552238806    0.09302325581395349
+Other-Advice    10    112    28    213    0.08196721311475409    0.07142857142857142
+Other-Sentiment    39    25    83    184    0.609375    0.3611111111111111
+Other-Discussion    5    51    39    218    0.08928571428571429    0.05555555555555555
+Other-Irrelevant    2    5    144    221    0.2857142857142857    0.013422818791946308
+Other-Unknown    0    3    24    223    0.0    0.0
+Other-KnownAlready    6    4    99    217    0.6    0.05825242718446602
+details
+Request-GoodsServices    0    11    0    223    0.0    0.0
+Request-SearchAndRescue    0    3    0    223    0.0    0.0
+Request-InformationWanted    3    43    7    220    0.06521739130434782    0.06
+CallToAction-Volunteer    0    0    2    223    0    0.0
+CallToAction-FundRaising    0    0    0    223    0    0
+CallToAction-Donations    5    1    10    218    0.8333333333333334    0.45454545454545453
+CallToAction-MovePeople    3    3    22    220    0.5    0.12
+Report-FirstPartyObservation    0    20    28    223    0.0    0.0
+Report-ThirdPartyObservation    0    65    14    223    0.0    0.0
+Report-Weather    10    10    31    213    0.5    0.24390243902439024
+Report-EmergingThreats    15    247    19    208    0.05725190839694656    0.05639097744360902
+Report-SignificantEventChange    0    10    34    223    0.0    0.0
+Report-MultimediaShare    53    284    70    170    0.1572700296735905    0.1497175141242938
+Report-ServiceAvailable    0    0    14    223    0    0.0
+Report-Factoid    28    35    107    195    0.4444444444444444    0.19718309859154928
+Report-Official    19    39    30    204    0.3275862068965517    0.2753623188405797
+Report-CleanUp    0    14    2    223    0.0    0.0
+Report-Hashtags    0    0    4    223    0    0.0
+Other-PastNews    1    9    11    222    0.1    0.05
+Other-ContinuingNews    24    43    215    199    0.3582089552238806    0.09302325581395349
+Other-Advice    10    112    28    213    0.08196721311475409    0.07142857142857142
+Other-Sentiment    39    25    83    184    0.609375    0.3611111111111111
+Other-Discussion    5    51    39    218    0.08928571428571429    0.05555555555555555
+Other-Irrelevant    2    5    144    221    0.2857142857142857    0.013422818791946308
+Other-Unknown    0    3    24    223    0.0    0.0
+Other-KnownAlready    6    4    99    217    0.6    0.05825242718446602
+details
+Request-GoodsServices0.8823151125401929    5.236641221374046
+Request-SearchAndRescue0.8202247191011236    2.28125
+Request-InformationWanted0.7036759189797449    1.3958333333333333
+CallToAction-Volunteer0.9516129032258065    3.933333333333333
+CallToAction-FundRaising0    0
+CallToAction-Donations0.9070048309178744    1.5911016949152543
+CallToAction-MovePeople0.8125    0.78
+Report-FirstPartyObservation0.4520725388601036    0.3099467140319716
+Report-ThirdPartyObservation0.4318766066838046    0.4148148148148148
+Report-Weather0.7175438596491228    0.3862134088762984
+Report-EmergingThreats0.5376044568245125    0.9431363838294091
+Report-SignificantEventChange0.8756281407035176    2.8565573770491803
+Report-MultimediaShare0.5635564570655849    0.9720116618075801
+Report-ServiceAvailable0.9466666666666667    3.1323529411764706
+Report-Factoid0.8354679802955665    1.6121673003802282
+Report-Official0.7914572864321608    2.2393364928909953
+Report-CleanUp0.6869918699186992    0.7300215982721382
+Report-Hashtags0    0
+Other-PastNews0.8327205882352942    1.986842105263158
+Other-ContinuingNews0.5117139334155364    0.49760191846522783
+Other-Advice0.5360121304018196    0.40914351851851855
+Other-Sentiment0.6808731808731808    1.1974405850091407
+Other-Discussion0.5888111888111888    0.8662551440329218
+Other-Irrelevant0.0    0.0
+Other-Unknown0.9523241954707986    5.707142857142857
+Other-KnownAlready0.9696969696969697    2.4615384615384617
+details
+Request-GoodsServices0.8823151125401929    0.9455547898001379
+Request-SearchAndRescue0.8202247191011236    0.8202247191011236
+Request-InformationWanted0.7036759189797449    0.7720164609053498
+CallToAction-Volunteer0.9516129032258065    0.8309859154929577
+CallToAction-FundRaising0    0
+CallToAction-Donations0.9070048309178744    0.6553228621291448
+CallToAction-MovePeople0.8125    0.4875
+Report-FirstPartyObservation0.4520725388601036    0.33174904942965777
+Report-ThirdPartyObservation0.4318766066838046    0.4772727272727273
+Report-Weather0.7175438596491228    0.31293037490436115
+Report-EmergingThreats0.5376044568245125    0.8332025117739403
+Report-SignificantEventChange0.8756281407035176    0.827790973871734
+Report-MultimediaShare0.5635564570655849    0.7972262075561932
+Report-ServiceAvailable0.9466666666666667    0.79182156133829
+Report-Factoid0.8354679802955665    0.7025683512841756
+Report-Official0.7914572864321608    0.8452593917710197
+Report-CleanUp0.6869918699186992    0.5224111282843895
+Report-Hashtags0    0
+Other-PastNews0.8327205882352942    0.7677966101694915
+Other-ContinuingNews0.5117139334155364    0.48651817116060964
+Other-Advice0.5360121304018196    0.387822270981898
+Other-Sentiment0.6808731808731808    0.7318435754189944
+Other-Discussion0.5888111888111888    0.6867862969004894
+Other-Irrelevant0.0    0.0
+Other-Unknown0.9523241954707986    0.8887652947719689
+Other-KnownAlready0.9696969696969697    0.7272727272727273
+details

@@ -21,7 +21,7 @@ others:     none
 '''
 def clearIn(text):
     interpunctions = [';', '_', '’', '…', 'rt', 'via', '-', '[', ']', '(', ')', '"', ':', "'", '.', ',', '?', '//', '/', '{', '}', '!', '&', '\r', '\t', '\f']
-    text = text.lower()
+    # text = text.lower()
     text = text.strip(' ')
     text = ' '.join([word for word in text.strip().split() if word not in stopwords.words("english")])
     for inter in interpunctions:
@@ -49,19 +49,20 @@ def readtrain(paths):
             reader = csv.reader(csvfile)
             datas = []
             for row in reader:
-                content = ''
-                counter += 1
-                if (source != 'twitterNews'):
-                    content = clearIn(row[2].strip())
-                else:
-                    content = row[1].strip() + ' ' + row[2].strip()
-                    replace = ' '
-                    urlRE = r'(http|ftp|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?'
-                    content = re.sub(urlRE, replace, str(content))
-                    content = clearIn(content)
-                dataPush = [content, fatherLabel]
-                # dataPush = [content, sonLabel]
-                datas.append(dataPush)
+                if (len(row) > 0):
+                    content = ''
+                    counter += 1
+                    if (source != 'twitterNews'):
+                        content = clearIn(row[2].strip())
+                    else:
+                        content = row[1].strip() + ' ' + row[2].strip()
+                        replace = ' '
+                        urlRE = r'(http|ftp|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?'
+                        content = re.sub(urlRE, replace, str(content))
+                        content = clearIn(content)
+                    dataPush = [content, fatherLabel]
+                    # dataPush = [content, sonLabel]
+                    datas.append(dataPush)
             splitNum = int(counter/4)
             trainingDatas += datas[:splitNum]
             testDatas += datas[splitNum:]
@@ -120,16 +121,18 @@ if __name__ == '__main__':
     trainContent, trainOpinion = splitOptionAndData(trainingDatas)
     testContent, testOpinion = splitOptionAndData(testDatas)
 
-    # 训练和预测一体
-    textClf = Pipeline([('vect', CountVectorizer()), ('tfidf', TfidfTransformer()), ('clf', SVC(C=1.0, kernel = 'linear'))])
+    # 训练和预测一体(统计词频、tfidf减少干扰、SVM训练)
+    textClf = Pipeline([('vect', CountVectorizer()), ('tfidf', TfidfTransformer()), ('clf', SVC(C=1.0, kernel = 'linear',probability=True))])
     textClf = textClf.fit(trainContent, trainOpinion)
     # 保存模型
     joblib.dump(textClf, '../model/ontology_train_model.m')
-    predicted = textClf.predict(testContent)
-    print ('SVC',np.mean(predicted == testOpinion))
-    print (set(predicted))
-    # 混淆矩阵 1,2,3 意思为真值为2，预测值为3的有1个
-    print (metrics.confusion_matrix(testOpinion, predicted)) # 混淆矩阵
+    # predicted = textClf.predict(testContent)
+    # # for index,item in enumerate(textClf.predict_proba(testContent)):
+    # #     print(item, predicted[index])
+    # print ('SVC',np.mean(predicted == testOpinion))
+    # print (set(predicted))
+    # # 混淆矩阵 1,2,3 意思为真值为2，预测值为3的有1个
+    # print (metrics.confusion_matrix(testOpinion, predicted)) # 混淆矩阵
 
 
 
